@@ -39,6 +39,8 @@ gem 'compass-rails', github: "Compass/compass-rails", branch: "rails4-hack"
 gem 'postmarkdown', github: "ennova/postmarkdown", branch: "rails4"
 gem 'rack-canonical-host'
 gem 'zurb-foundation', '~> 4.0.0'
+gem 'redcarpet'
+gem 'rouge'
 
 group :development do
   gem 'rack-livereload'

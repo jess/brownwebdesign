@@ -1,0 +1,6 @@
+@import "foundation";
+@import "github";
+
+section#posts, article.post {
+  @include grid-row;
+}
