@@ -10,9 +10,12 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <%= csrf_meta_tags %>
 </head>
-<body>
-
-<%= yield %>
+<body class="blog">
+<div class="row">
+  <div class="columns large-8 large-centered">
+    <%= yield %>
+  </div>
+</div>
 
 </body>
 </html>

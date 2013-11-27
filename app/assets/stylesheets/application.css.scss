@@ -1,6 +1,26 @@
-@import "foundation";
+@import "foundation_and_overrides";
 @import "github";
+@import "blog";
+
+body {
+
+  ul {
+    margin-left: 45px;
+  }
+}
+
+
 
 section#posts, article.post {
   @include grid-row;
+  h1 {
+    font-size: 2em;
+  }
 }
+
+pre {
+  padding: 20px;
+  background: #F0F0F0;
+  line-height: 1.2em;
+}
+ //= require foundation_and_overrides
