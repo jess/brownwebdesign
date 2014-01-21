@@ -1,3 +1,16 @@
 body.blog {
   background: #F7F7F7;
+  section#posts, article.post {
+    @include grid-row;
+    h1 {
+      font-size: 2em;
+    }
+  }
+
+  pre {
+    padding: 20px;
+    background: #F0F0F0;
+    line-height: 1.2em;
+    margin-bottom: 3em;
+  }
 }
