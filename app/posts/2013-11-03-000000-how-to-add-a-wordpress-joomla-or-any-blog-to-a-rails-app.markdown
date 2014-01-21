@@ -7,7 +7,7 @@ email: jess@brownwebdesign.com
 
 ## The Problem
 
-**You need to add a new blog or a legacy blog to a rails app**
+You need to add a new blog or a legacy blog to a rails app
 
 Maybe your client wants to add a blog or like in my recent scenario,
 your client has an existing blog that needs to get merged into a rails

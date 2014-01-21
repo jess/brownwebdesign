@@ -1,23 +1,9 @@
 ---
-layout: post
 status: publish
-published: true
+published: false
 title: Find and replace html tags in a database
-author: jess
-author_login: jess
+author: Jess Brown
 email: jess@brownwebdesign.com
-author_url: http://www.brownwebdesign.com
-wordpress_id: 284
-wordpress_url: http://www.brownwebdesign.com/blog/?p=284
-date: 2013-08-21 03:15:50.000000000 -04:00
-categories:
-- General
-tags:
-- rails
-- refinery
-- nokigiri
-- cms
-comments: []
 ---
 I recently had a client want to change all h2 tags to h1 tags in a refinerycms app I managed.  They had several hunderd pages, so manually doing it was not sounding good and using regular expressions for html parsing sounded like trouble.
 

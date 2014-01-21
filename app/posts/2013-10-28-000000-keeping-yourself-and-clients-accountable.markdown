@@ -11,14 +11,13 @@ difficult to manage projects.  I don't feel like I'm necessarily
 terrible at it (my previous job involved managing it IT, Marketing, Sales of a
 3+ million small business). A couple of things usually get me:
 
-1. **Short term time requirements**  This includes modifying/adding/fixing a
+1. **Short term time requirements** This includes modifying/adding/fixing a
    recently launched project or a 1-2 need for an existing client.  It's
 something a most clients consider reasonable that you can get to in 2-5
 days.
+2. **Ballers**  Clients that are really visible, vocal and on the ball about their project.  I typically like these clients (as long as they're never pushy or rude) because they keep me moving.
 
-2. ** Ballers **  Clients that are really visible, vocal and on the ball about their project.  I typically like these clients (as long as they're never pushy or rude) because they keep me moving.
-
-What does this leave?  
+### What does this leave?  
 This typically leaves out the client who has a ton of other things going
 on within their business and haven't held you any timeline.  These guys
 usually get passed over for #1 and #2.
