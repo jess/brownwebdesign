@@ -3,6 +3,7 @@
 @import "github";
 @import "blog";
 @import "home";
+@import "font-awesome";
 
 body {
   ul, ol {
@@ -11,4 +12,28 @@ body {
 }
 
 
+.menu {
+  background: $blue;
+  margin-bottom: 3em;
+  .logo {
+    text-align: left;
+    img {
+      height: 70px;
+    }
+  }
+
+  .icon-nav  {
+    margin-top: 1.2em;
+    text-align: right;
+    a {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 2em;
+      margin-right: 1em;
+      &:hover {
+        color: #fff;
+      }
+    }
+
+  }
+}
 

@@ -2,7 +2,7 @@
   %header
     %h1= link_to post.title, post
     .row.posted-by
-      .columns.large-6.large-centered
+      .columns.large-6
         = image_tag 'profile.png', width: 35
         .meta
           %time{:pubdate => 'true', :datetime => post.timestamp.iso8601}
