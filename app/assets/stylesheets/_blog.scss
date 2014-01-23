@@ -2,9 +2,31 @@ body.blog {
   background: #F7F7F7;
   section#posts, article.post {
     @include grid-row;
+    margin-bottom: 3em;
     h1 {
-      font-size: 2em;
+     border-bottom: 1px solid #CCC;
+     text-align: center;
     }
+    .posted-by {
+      margin-bottom: 3em;
+      img {
+        float: left;
+        margin-right: 1em;
+      }
+      .meta {
+        padding-top: 7px;
+        color: #949494;
+      }
+    }
+
+  }
+
+  section#posts h1 {
+    font-size: 2em;
+  }
+
+  article.post h1 {
+    font-size: 2.8em;
   }
 
   code {

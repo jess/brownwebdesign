@@ -3,6 +3,7 @@
 %section#posts
   - if collection.present?
     = render collection, :summary => true
+    %hr
     = paginate collection
   - else
     No posts found.
