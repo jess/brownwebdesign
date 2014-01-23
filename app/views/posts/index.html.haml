@@ -2,7 +2,7 @@
 
 %section#posts
   - if collection.present?
-    = render collection, :summary => true
+    = render collection, :summary => false
     %hr
     = paginate collection
   - else
