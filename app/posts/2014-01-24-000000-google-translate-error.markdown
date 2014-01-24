@@ -27,5 +27,5 @@ I found [ this page on SO ][2] that discusses the same problem. I'm going to try
 
 Hopefully it'll work. Know any other tips??
 
-[1]: image_path("blog/tagalog.png")
+[1]:/images/blog/tagalog.png
 [2]:http://stackoverflow.com/questions/2980520/how-to-specify-your-webpages-language-so-google-chrome-doesnt-offer-to-transla
