@@ -14,7 +14,7 @@ also setup a Ubuntu dev server that I wanted to try backing client work
 up to. So I followed this popular article about setting up  [TimeMachine on
 Ubuntu](http://kremalicious.com/ubuntu-as-mac-file-server-and-time-machine-volume/) and it worked great.  Then Rack Space bought a little company called Jungle Disk and they had an option for Unbuntu to backup files to S3 or Rackspace's cloud files for an off site solution.
 
-This worked really well because I had everything in one place and lots of redundancy.  I had a 2nd hard drive in the dev server that I rsynced to and also had a copy, I had another computer in the office that I rsynced to, and I had the offsite backup in case of fire, theft, flood, etc.  
+This worked really well because I had everything in one place and lots of redundancy.  I had a 2nd hard drive in the dev server that I rsynced to.  I also had another computer in the office that I rsynced to, and I had the offsite backup in case of fire, theft, flood, etc.  
 
 ### What changed?
 
@@ -28,10 +28,8 @@ automatically in the background.  Around that time I also ordered a new
 dev server with a RAID setup to mirror the data.
 
 This is when things started to get a little off.  After setting up my
-new server, I never resetup  JungleDisk.  It seemed to have some
-problems and I never really liked how it worked.  We started putting all
-new client directories in Dropbox and also eventually updated our
-Macbooks.  We ended up with having a lot of old client data on the server, some internal applications (ie billing/time tracking) and lots of old resources (images, videos, etc).  
+new server, I never resetup  JungleDisk.  We started putting all
+new client directories in Dropbox.  We ended up with having a lot of old client data on the server, some internal applications (ie billing/time tracking) and lots of old resources (images, videos, etc).  
 
 I've had it on my todo list for sometime now to find an offsite solution
 for my dev server, and I've looked a few times, but just haven't found
@@ -44,8 +42,8 @@ CrossFit and the next I ride my bike.  On Friday's (her day) the
 CrossFit class is a later in the morning and I usually take some time to
 hang out with my 3 year old Nate.  We were about to go and see my 93 year old
 grandfather and I was trying to get a deposit ready in the
-office when Nate came in and simply pushed the power button on my batter
-backup for the dev server.  
+office when Nate came in and simply pushed the power button on my
+battery backup for the dev server.  
 
 I got a little flustered, ushered him out and didn't think much of it
 (thinking it would reboot itself as it has before after long power
@@ -91,7 +89,7 @@ up the computer to make backups!
 Don't get lazy and slack about your backups...it's easy to do over time,
 especially if you haven't had a scare in a while.  Also, with all the
 focus on the cloud (Dropbox, Google Apps, S3, etc), it's easy to
-distance yourself be naive about how covered you were.  I incorrectly
+distance yourself and be naive about how covered you are.  I incorrectly
 felt way too comfortable about the RAID setup and figured I had good
 coverage and I was very close to being WAY wrong.  
 
