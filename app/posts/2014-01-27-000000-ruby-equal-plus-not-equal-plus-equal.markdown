@@ -1,6 +1,6 @@
 ---
 published: true
-title: "Ruby: Equal Plus Not Equal to Equal Plus"
+title: "Ruby: Equal Plus Not Equal to Plus Equal"
 author: Jess Brown
 email: jess@brownwebdesign.com
 ---
