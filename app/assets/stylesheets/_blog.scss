@@ -1,5 +1,4 @@
 body.blog {
-  background: #F7F7F7;
   section#posts, article.post {
     @include grid-row;
     margin-bottom: 3em;
@@ -28,21 +27,6 @@ body.blog {
     font-size: 2.8em;
   }
 
-  code {
-    font-weight: normal;
-    color: #7F0A0C;
-    font-size: 82%;
-    background: #E6E6E6;
-    padding: 7px 4px;
-  }
-  pre {
-    padding: 20px;
-    background: #F0F0F0;
-    line-height: 1.3em;
-    margin-bottom: 3em;
-    overflow-y: auto;
-    font-size: 1.2em;
-  }
 
   .footnote {
     font-size: 80%;

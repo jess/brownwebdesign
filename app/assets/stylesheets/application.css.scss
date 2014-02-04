@@ -6,8 +6,28 @@
 @import "font-awesome";
 
 body {
+  background: #F7F7F7;
   ul, ol {
     margin-left: 2em;
+  }
+
+  h4 {
+    font-weight: bold;
+  }
+  code {
+    font-weight: normal;
+    color: #7F0A0C;
+    font-size: 82%;
+    background: #E6E6E6;
+    padding: 7px 4px;
+  }
+  pre {
+    padding: 20px;
+    background: #F0F0F0;
+    line-height: 1.3em;
+    margin-bottom: 3em;
+    overflow-y: auto;
+    font-size: 1.2em;
   }
 }
 
@@ -26,7 +46,8 @@ body {
     margin-top: 1.2em;
     text-align: right;
     a {
-      color: rgba(255, 255, 255, 0.7);
+      //color: rgba(255, 255, 255, 0.7);
+      color: darken($blue, 7%);
       font-size: 2em;
       margin-right: 1em;
       &:hover {
