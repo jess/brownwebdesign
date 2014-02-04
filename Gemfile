@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.1'
+gem 'rails', '4.0.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
 gem 'thin'
+gem 'high_voltage'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -37,7 +38,7 @@ end
 gem "passenger"
 gem 'slim-rails'
 gem 'rails_12factor', group: :production
-gem 'compass-rails', github: "Compass/compass-rails", branch: "rails4-hack"
+gem 'compass-rails'
 gem 'postmarkdown', github: "ennova/postmarkdown", branch: "rails4"
 gem 'rack-canonical-host'
 gem 'zurb-foundation', '~> 4.0.0'
