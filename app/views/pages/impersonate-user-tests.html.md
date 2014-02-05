@@ -1,4 +1,4 @@
-# The Tests For My Switch User Example
+# The Tests For My Impersonates User Example
 
 Miss the example?  Find it here
 [//www.brownwebdesign.com/blog/2014/02/04/logon-as-another-user-in-a-rails-app][1]
@@ -6,8 +6,8 @@ Miss the example?  Find it here
 #### The integration spec
 
 ```ruby
-# spec/requests/switch_user_spec.rb
-describe "Switch User" do
+# spec/requests/impersonates_spec.rb
+describe "Impersonating an Author" do
   context "when logged in as an admin" do
     context "and switching to an author" do
       let(:admin){ create(:user, :admin) }
@@ -41,7 +41,8 @@ end
 #### Controller spec
 
 ```ruby
-describe SwitchUsersController do
+# spec/controller/impersonates_controller_spec.rb
+describe ImpersonatesController do
   let(:admin){ create(:user, :admin) }
   let!(:author2){ create(:author, email: 'author2@gsu.com') }
 
@@ -49,14 +50,14 @@ describe SwitchUsersController do
     login_admin
 
     it 'allows the admin to sign in as the author' do
-      put :update, :id => author2.id
+      get :author, :id => author2.id
       response.should redirect_to(dashboard_author_path(author2))
     end
 
     it 'allows the admin to resign in as the admin' do
       # set the session first
-      put :update, :id => author2.id
-      get :index
+      get :author, :id => author2.id
+      get :revert_to_admin
       response.should redirect_to(user_path(@user))
     end
 
@@ -65,17 +66,17 @@ describe SwitchUsersController do
   context "signed in as an another author" do
     login_author
     it 'will not allow the author to sign in as another author' do
-      put :update, :id => author2.id
+      get :author, :id => author2.id
       response.should redirect_to(root_path)
     end
 
     it 'will not allow the author to use the update action and give themself a :admin_logged_in flag' do
-      put :update, :id => @user.id
+      get :author, :id => @user.id
       response.should redirect_to(root_path)
     end
 
     it 'wont allow access to the index action' do
-      get :index
+      get :revert_to_admin
       response.should redirect_to(root_path)
     end
   end
