@@ -70,7 +70,7 @@ describe ImpersonatesController do
       response.should redirect_to(root_path)
     end
 
-    it 'will not allow the author to use the update action and give themself a :admin_logged_in flag' do
+    it 'will not allow the author to use the author action and give themself an :admin_logged_in flag' do
       get :author, :id => @user.id
       response.should redirect_to(root_path)
     end
