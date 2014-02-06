@@ -50,14 +50,14 @@ describe ImpersonatesController do
     login_admin
 
     it 'allows the admin to sign in as the author' do
-      get :author, :id => author2.id
+      post :create, :author_id => author2.id
       response.should redirect_to(dashboard_author_path(author2))
     end
 
     it 'allows the admin to resign in as the admin' do
       # set the session first
-      get :author, :id => author2.id
-      get :revert_to_admin
+      post :create, :author_id => author2.id
+      delete :destroy, id: "revert"
       response.should redirect_to(user_path(@user))
     end
 
@@ -66,17 +66,17 @@ describe ImpersonatesController do
   context "signed in as an another author" do
     login_author
     it 'will not allow the author to sign in as another author' do
-      get :author, :id => author2.id
+      post :create, :author_id => author2.id
       response.should redirect_to(root_path)
     end
 
-    it 'will not allow the author to use the author action and give themself an :admin_logged_in flag' do
-      get :author, :id => @user.id
+    it 'will not allow the author to use the create action and give themself a :admin_logged_in flag' do
+      post :create, :id => @user.id
       response.should redirect_to(root_path)
     end
 
     it 'wont allow access to the index action' do
-      get :revert_to_admin
+      delete :destroy, id: "revert"
       response.should redirect_to(root_path)
     end
   end

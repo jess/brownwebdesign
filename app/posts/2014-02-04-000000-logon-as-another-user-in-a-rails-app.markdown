@@ -26,24 +26,23 @@ user's account and wanted to share to
 
 So here's how I did it:
 
-So a user with the admin role has a view to see a list of all authors (my user in this case was an author).  Next to each author's name is a link to sign in as the author.
+So a user with the admin role has a view to see a list of all authors
+(my user in this case was an author).  Next to each author's name is a
+link to sign in as the author.
 
 #### The Routes:
 
 ```ruby
-namespace :impersonates do
-  get "author/:id", :action => "author", as: :author
-  get :revert_to_admin
-end
+resources :impersonates, only: [:create, :destroy]
 ```
 
 #### A controller:
 
 ```ruby
-class ImpersonatessController < ApplicationController
-  load_and_authorize_resource :author, :only => :update, :parent => false
+class ImpersonatesController < ApplicationController
+  load_and_authorize_resource :author, :only => :create
 
-  def author
+  def create
     authorize! :impersonate, @author
     session[:admin_logged_in] = current_user.id
     sign_out current_user
@@ -51,7 +50,7 @@ class ImpersonatessController < ApplicationController
     redirect_to dashboard_author_path(@author), :notice => "Signed in as #{@author.name}"
   end
 
-  def revert_to_admin
+  def destroy
     if session[:admin_logged_in].present?
       if author_signed_in?
         sign_out current_author
@@ -74,9 +73,14 @@ user/pass).
 #### Authorization:
 
 As you can see, I'm using [cancan][2] to authorize my controller
-actions.  The main action of concern is the "author" action
-because that actually logs a user in as another user.  We don't want
-that being explioted.  We load and authorize the author that we want to log into. As you can see below, authors only have the ability to manage themselves.  I add an extra layer of security `authorize! :impersonate, @author` that will prevent an author from being able to give themself the `:admin_logged_in` flag.  So that should make it impossible for any non authorized users or guests to exploit the action.  
+actions.  The main action of concern is the "author" action because that
+actually logs a user in as another user.  We don't want
+that being explioted.  We load and authorize the author that we want to
+log into. As you can see below, authors only have the ability to manage
+themselves.  I add an extra layer of security `authorize! :impersonate,
+@author` that will prevent an author from being able to give themself
+the `:admin_logged_in` flag.  So that should make it impossible for any
+non authorized users or guests to exploit the action.  
 
 One problem I ran into initially was after I was able to log into an
 author's account, I couldn't perform any 'admin' type actions because I
@@ -116,13 +120,13 @@ end
 ```haml
 # the admin's list of authors
 ...
-=link_to "Sign in as this author", impersonates_author_path(author.id)
+=link_to "Sign in as this author", impersonates_path(author_id: author.id), :method => :post
 
 # the ability for the admin to sign back in as admin without having to
 reenter credintials
 ...
 - if session[:admin_logged_in].present?
-  =link_to "Sign in as admin", impersonates_revert_to_admin_path
+  =link_to "Sign in as admin", impersonate_path("revert"), method: :delete
 ```
 
 #### Tests
@@ -130,7 +134,7 @@ reenter credintials
 What good is code with tests?  To keep the article a concise as
 possible, I left them out, but posted them here for your reference:
 
-[Switch User Tests][3]
+[Impersonates User Tests][3]
 
 
 So that's pretty much it.  Now the admin can sign in as an author, view
