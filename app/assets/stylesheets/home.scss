@@ -25,4 +25,15 @@ body.home {
       }
     }
   }
+  section.blurb {
+    margin-top: 3em;
+    p {
+      font-style:italic;
+    }
+    a {
+      color: #fff;
+      background: darken($blue, 7%);
+      padding: 1px;
+    }
+  }
 }

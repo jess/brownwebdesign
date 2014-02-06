@@ -1,9 +1,15 @@
 .intro
   =render "layouts/menu"
-  .row
-    .columns.large12
-      .statement
-        h1 We Design & Build Software In The Cloud
-      .icons
-        =image_tag "icons.png"
+  section 
+    .row
+      .columns.large-12
+        .statement
+          h1 We Design & Build Software In The Cloud
+        .icons
+          =image_tag "icons.png"
+
+  section.blurb
+    .row
+      .columns.large-10.large-centered
+        =render "home/intro"
 

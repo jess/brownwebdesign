@@ -6,7 +6,9 @@
           =image_tag "logo.png"
     .columns.large-4
       .icon-nav
-        =link_to "/blog" do
+        =link_to "/blog", title: "Blog" do
           =fa_icon "rss"
-        =link_to "http://www.twitter.com/BrownWebDesign" do
+        =link_to "http://www.twitter.com/BrownWebDesign", title: "Contact Us" do
           =fa_icon "envelope"
+        =link_to "/schedule", title: "Schedule A Phone Call" do
+          =fa_icon "calendar"
