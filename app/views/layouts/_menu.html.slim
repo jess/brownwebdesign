@@ -1,10 +1,10 @@
 .menu
-  .row
-    .columns.large-4
+  .row.collapse
+    .columns.small-5
       .logo
         =link_to "/" do
           =image_tag "logo.png"
-    .columns.large-4
+    .columns.small-7
       .icon-nav
         =link_to "/blog", title: "Blog" do
           =fa_icon "rss"
@@ -12,3 +12,5 @@
           =fa_icon "envelope"
         =link_to "/schedule", title: "Schedule A Phone Call" do
           =fa_icon "calendar"
+        =link_to "/payments", title: "Make A Payment" do
+          =fa_icon "money"
