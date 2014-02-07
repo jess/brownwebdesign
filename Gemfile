@@ -40,11 +40,9 @@ gem "passenger"
 gem 'slim-rails'
 gem 'rails_12factor', group: :production
 gem 'compass-rails'
-gem 'postmarkdown', github: "ennova/postmarkdown", branch: "rails4"
+gem 'postmarkdown', github: "jess/postmarkdown", branch: "syntax"
 gem 'rack-canonical-host'
 gem 'foundation-rails'
-gem 'redcarpet'
-gem 'rouge'
 
 group :development do
   gem 'rack-livereload'

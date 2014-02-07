@@ -1,7 +1,7 @@
 GIT
-  remote: git://github.com/ennova/postmarkdown.git
-  revision: 98612d393767b1e81498b1f9a3d8a9a6c0f18041
-  branch: rails4
+  remote: git://github.com/jess/postmarkdown.git
+  revision: 042302225a22527ba7a959e514cc11f11c2a3ebf
+  branch: syntax
   specs:
     postmarkdown (0.0.7)
       gravtastic
@@ -9,7 +9,8 @@ GIT
       kaminari
       nokogiri
       rails (>= 3.1, < 5.0)
-      rdiscount
+      redcarpet
+      rouge
 
 GEM
   remote: https://rubygems.org/
@@ -165,7 +166,6 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
-    rdiscount (2.1.7)
     rdoc (4.1.1)
       json (~> 1.4)
     redcarpet (3.0.0)
@@ -249,8 +249,6 @@ DEPENDENCIES
   rack-livereload
   rails (= 4.0.2)
   rails_12factor
-  redcarpet
-  rouge
   rspec-rails
   sass-rails (~> 4.0.0)
   sdoc
