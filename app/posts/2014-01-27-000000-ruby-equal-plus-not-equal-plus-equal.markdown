@@ -27,7 +27,7 @@ noticed the slight difference:
 I would have thought that `=+` would cause some sort of exception, but
 it doesn't:
 
-```
+```ruby
 [1] pry(main)> i = 0
 => 0
 [2] pry(main)> i =+ 1
