@@ -21,7 +21,7 @@ module MarkdownHandler
 
   def self.call(template)
     compiled_source = erb.call(template)
-    "MarkdownService.new.render(begin;#{compiled_source};end).html_safe"
+    "Postmarkdown::MarkdownRenderer.new.render(begin;#{compiled_source};end).html_safe"
   end
 end
 
