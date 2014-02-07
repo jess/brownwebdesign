@@ -1,9 +1,19 @@
 body.blog {
+  font-family: $blog-body-font-family;
   section#posts, article.post {
     @include grid-row;
     margin-bottom: 3em;
+    h1, h2, h3, h4, h5, h6 {
+      font-family: $blog-body-font-family;
+    }
+    p, ol, ul {
+      font-size: 1.4em;
+    }
     h1 {
      border-bottom: 1px solid #CCC;
+    }
+    h4 {
+      font-weight: bold;
     }
     .posted-by {
       margin-bottom: 3em;

@@ -39,7 +39,8 @@
 // We use these to control various global styles
 // $body-bg: #fff;
 $body-font-color: #575757;
-$body-font-family: "kepler-std", Georgia;
+$blog-body-font-family: "kepler-std", Georgia;
+$body-font-family:  "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $body-font-weight: 300;
 // $body-font-color: #222;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -131,12 +132,12 @@ $header-font-color: #4B4B4B;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-// $h1-font-size: rem-calc(44);
-// $h2-font-size: rem-calc(37);
-// $h3-font-size: rem-calc(27);
-// $h4-font-size: rem-calc(23);
-// $h5-font-size: rem-calc(18);
-// $h6-font-size: 1rem;
+$h1-font-size: 2rem;
+$h2-font-size: 1.8rem;
+$h3-font-size: 1.6rem;
+$h4-font-size: 1.4rem;
+$h5-font-size: 1.2rem;
+$h6-font-size: 1.1rem;
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
@@ -152,7 +153,7 @@ $header-font-color: #4B4B4B;
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 $paragraph-font-weight: 300;
-$paragraph-font-size: 1.4rem;
+$paragraph-font-size: 1rem;
 $paragraph-line-height: 1.6;
 // $paragraph-font-weight: normal;
 // $paragraph-font-size: 1rem;

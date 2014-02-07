@@ -17,7 +17,6 @@ body.home {
       @include font_family;
       @include font_weight;
       font-size: 2.2em;
-      padding: 2em 0 0em;
     }
     .icons {
       img {
@@ -29,6 +28,7 @@ body.home {
     margin-top: 3em;
     p {
       font-style:italic;
+      font-size: 1.1rem;
     }
     a {
       color: #fff;

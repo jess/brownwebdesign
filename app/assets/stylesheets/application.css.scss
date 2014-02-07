@@ -7,6 +7,7 @@
 
 body {
   background: #F7F7F7;
+  @include font_family;
   ul, ol {
     margin-left: 2em;
   }
@@ -16,9 +17,6 @@ body {
     }
   }
 
-  h4 {
-    font-weight: bold;
-  }
   code {
     font-weight: normal;
     color: #7F0A0C;
@@ -33,6 +31,9 @@ body {
     margin-bottom: 3em;
     overflow-y: auto;
     font-size: 1.2em;
+  }
+  .centered {
+    text-align: center;
   }
 }
 
@@ -65,7 +66,7 @@ body {
 
 section.payment {
   input[type='text'] {
-    height: 3em;
+    height: 3.6em;
   }
 }
 
