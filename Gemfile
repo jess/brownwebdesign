@@ -42,7 +42,7 @@ gem 'rails_12factor', group: :production
 gem 'compass-rails'
 gem 'postmarkdown', github: "ennova/postmarkdown", branch: "rails4"
 gem 'rack-canonical-host'
-gem 'zurb-foundation', '~> 4.0.0'
+gem 'foundation-rails'
 gem 'redcarpet'
 gem 'rouge'
 
