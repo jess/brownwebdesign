@@ -11,10 +11,16 @@ had an external hard drive and I just backed up to it once a week.
 
 After I while that started to become too much of a burden, and I had
 also setup a Ubuntu dev server that I wanted to try backing client work
-up to. So I followed this popular article about setting up  [TimeMachine on
-Ubuntu](http://kremalicious.com/ubuntu-as-mac-file-server-and-time-machine-volume/) and it worked great.  Then Rack Space bought a little company called Jungle Disk and they had an option for Unbuntu to backup files to S3 or Rackspace's cloud files for an off site solution.
+up to. So I followed this popular article about setting up  [TimeMachine
+on Ubuntu](http://kremalicious.com/ubuntu-as-mac-file-server-and-time-machine-volume/)
+and it worked great.  Then Rack Space bought a little company called
+Jungle Disk and they had an option for Unbuntu to backup files to S3 or
+Rackspace's cloud files for an off site solution.
 
-This worked really well because I had everything in one place and lots of redundancy.  I had a 2nd hard drive in the dev server that I rsynced to.  I also had another computer in the office that I rsynced to, and I had the offsite backup in case of fire, theft, flood, etc.  
+This worked really well because I had everything in one place and lots
+of redundancy.  I had a 2nd hard drive in the dev server that I rsynced
+to.  I also had another computer in the office that I rsynced to, and I
+had the offsite backup in case of fire, theft, flood, etc.  
 
 ### What changed?
 
@@ -29,7 +35,9 @@ dev server with a RAID setup to mirror the data.
 
 This is when things started to get a little off.  After setting up my
 new server, I never resetup  JungleDisk.  We started putting all
-new client directories in Dropbox.  We ended up with having a lot of old client data on the server, some internal applications (ie billing/time tracking) and lots of old resources (images, videos, etc).  
+new client directories in Dropbox.  We ended up with having a lot of old
+client data on the server, some internal applications (ie billing/time
+tracking) and lots of old resources (images, videos, etc).  
 
 I've had it on my todo list for sometime now to find an offsite solution
 for my dev server, and I've looked a few times, but just haven't found
