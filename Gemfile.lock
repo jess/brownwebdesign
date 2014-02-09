@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jess/postmarkdown.git
-  revision: 042302225a22527ba7a959e514cc11f11c2a3ebf
+  revision: ab866e9bd74e251f06f1c5a289bbf5bd34919bb3
   branch: syntax
   specs:
     postmarkdown (0.0.7)
