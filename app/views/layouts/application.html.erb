@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Brownwebdesign</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "vendor/custom.modernizr" %>
-  <script type="text/javascript" src="//use.typekit.net/ibn0igq.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <%= csrf_meta_tags %>
-</head>
+<%= render 'layouts/head' %>
 <body>
 <%= render "layouts/menu" %>
 <div class="row">
@@ -17,6 +8,5 @@
     <%= yield %>
   </div>
 </div>
-
 </body>
 </html>

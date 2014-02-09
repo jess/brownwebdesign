@@ -21,3 +21,12 @@
 
 en:
   hello: "Hello world"
+
+  home:
+    index:
+      meta_title: Brown Web Design - We Design & Build Web Apps
+  pages:
+    schedule:
+      meta_title: Schedule a phone call with Jess Browwn
+    payments:
+      meta_title: Make a payment to Brown Web Design
