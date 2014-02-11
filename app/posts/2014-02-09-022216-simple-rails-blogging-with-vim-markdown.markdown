@@ -12,7 +12,7 @@ last year or two, I've really wanted to get more into blogging and
 writing.  There's so much potential that can come from it.  Learning
 more about the topic you're writing about, communication skills,
 building an audience, marketing, SEO, building credibility, are just a
-few to start.  I was recently listing to the [Thought Bot podcast][1]
+few to start.  I was recently listing to the [ThoughtBot podcast][1]
 and heard an interview with Nathan Berry where he discussed his [ goal
 of writing 1000 words everyday ][2] and also talked about building an
 audience.  I was inspired and decided I had to get something
