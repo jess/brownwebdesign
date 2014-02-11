@@ -1,7 +1,7 @@
 # The Tests For My Impersonates User Example
 
 Miss the example?  Find it here
-[//www.brownwebdesign.com/blog/2014/02/04/logon-as-another-user-in-a-rails-app][1]
+[//www.brownwebdesign.com/blog/logon-as-another-user-in-a-rails-app][1]
 
 #### The integration spec
 
@@ -83,4 +83,4 @@ describe ImpersonatesController do
 end
 ```
 
-[1]:/blog/2014/02/04/logon-as-another-user-in-a-rails-app
+[1]:/blog/logon-as-another-user-in-a-rails-app

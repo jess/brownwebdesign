@@ -1,5 +1,5 @@
 Brownwebdesign::Application.routes.draw do
-  postmarkdown :as => :blog
+  postmarkdown :as => :blog, :permalink_format => :slug
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
