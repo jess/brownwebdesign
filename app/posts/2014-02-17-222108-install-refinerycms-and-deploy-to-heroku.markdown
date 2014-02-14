@@ -7,13 +7,9 @@ email: jess@brownwebdesign.com
 I recently had to setup a refinery cms on heroku for a client so I
 decided to record it and share.
 
-I recorded this at about 1280px wide, so you'll likely get a much
-clearer picture if you view on [ Vimeo ](https://vimeo.com/86460002) where they allow a better quality
-verion.
-
 Let ne know if you have any questions.
 
-<div class="flex-video"><iframe src="//player.vimeo.com/video/86460002" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>
+<div class="flex-video widescreen"><iframe width="560" height="315" src="//www.youtube.com/embed/9YGX0OYnMto" frameborder="0" allowfullscreen></iframe> </div>
 
 ### Notes:
 
