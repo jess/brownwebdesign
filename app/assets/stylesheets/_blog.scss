@@ -33,8 +33,16 @@ body.blog {
     font-size: 2em;
   }
 
-  article.post h1 {
-    font-size: 2.8em;
+  article.post {
+    h1 {
+      font-size: 2.8em;
+    }
+    h2 {
+      font-size: 2.2em;
+    }
+    h3 {
+      font-size: 1.9em;
+    }
   }
 
 
