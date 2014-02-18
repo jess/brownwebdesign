@@ -19,7 +19,7 @@ form fields and needed a counter like below:
   - id =+ 1
 ```
 
-If you paid attention to the title or have a sharp, you might have
+If you paid attention to the title or have a sharp eye, you might have
 noticed the slight difference:
 
 `=+ != +=`
