@@ -1,5 +1,5 @@
 ---
-title: Install Refinerycms & Deploy To Heroku
+title: Install Refinery CMS & Deploy To Heroku
 author: Jess Brown
 email: jess@brownwebdesign.com
 ---
