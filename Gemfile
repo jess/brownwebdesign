@@ -40,7 +40,7 @@ gem "passenger"
 gem 'slim-rails'
 gem 'rails_12factor', group: :production
 gem 'compass-rails'
-gem 'postmarkdown', github: "jess/postmarkdown", branch: "preview"
+gem 'postmarkdown', github: "jess/postmarkdown", branch: "production"
 gem 'rack-canonical-host'
 gem 'foundation-rails'
 
