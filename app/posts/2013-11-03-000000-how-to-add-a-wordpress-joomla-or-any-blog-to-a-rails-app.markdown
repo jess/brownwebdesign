@@ -135,8 +135,8 @@ The views are simple as well:
 ``` ruby
 # app/views/blog/articles/index.html.erb
 <h1>Blog</h1>
-<%= render @articles %>
-<%= will_paginate @articles %>
+<%%= render @articles %>
+<%%= will_paginate @articles %>
 
 ```
 
@@ -144,14 +144,14 @@ The views are simple as well:
 # app/views/blog/articles/_article.html.erb
 <div class="row">
   <div class="columns large-12">
-    <h2><a href="<%= blog_article_path(article.alias) %>"><%= article.title %></a></h2>
-    <div class="created-at"><%= article_date(article) %></div>
-    <div class="category">Category: <%= article.category.title %></div>
-    <%= article_text(article.introtext) %>
+    <h2><a href="<%%= blog_article_path(article.alias) %>"><%%= article.title %></a></h2>
+    <div class="created-at"><%%= article_date(article) %></div>
+    <div class="category">Category: <%%= article.category.title %></div>
+    <%%= article_text(article.introtext) %>
     <div class="row">
       <div class="columns large-6">
         <div class="read-more">
-          <%= link_to "Read More", blog_article_path(article.alias) %>
+          <%%= link_to "Read More", blog_article_path(article.alias) %>
         </div>
       </div>
     </div>
@@ -161,8 +161,8 @@ The views are simple as well:
 
 ``` ruby
 # app/views/blog/articles/show.html.erb
-<h1><%= @article.title %></h1>
-<%= article_text(@article.fulltext) %>
+<h1><%%= @article.title %></h1>
+<%%= article_text(@article.fulltext) %>
 ```
 
 ### Helper
