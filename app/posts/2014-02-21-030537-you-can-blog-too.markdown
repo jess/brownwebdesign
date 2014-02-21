@@ -43,8 +43,15 @@ I hope my small experience of a quick success story of starting a blog,
 actually publishing some posts and getting it picked up by a popular
 industry newsletter helps.  I'm a believer!
 
+#### Update:
+
+[ Matt Smith ][matt] posted a much better recap of the meetup here and listed some
+of the major points John made in his talk.  [ Go check it out ][mattblog]!
+
 
 [2]:http://www.meetup.com/transform-athens/events/159982002/
 [3]:https://twitter.com/saddington
 [4]:/blog/simple-rails-blogging-with-vim-markdown
 [5]:/blog/install-refinerycms-and-deploy-to-heroku
+[matt]:http://www.twitter.com/mds
+[mattblog]:http://mattdsmith.com/blogging-and-your-future/
