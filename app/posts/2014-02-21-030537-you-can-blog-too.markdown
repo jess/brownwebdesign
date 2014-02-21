@@ -1,0 +1,40 @@
+---
+title: You Can Blog Too!
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+This evening I attended a local design meetup called
+TransformAthens.  The topic was [Blogging and Your Future][2] and the
+presenter was [John Saddington][3].  John is a well known proponent for
+blogging and was there to encourage us to either start on keep going.
+
+<%= image_tag "blog/saddington.jpg" %>
+
+I [ recently started blogging ][4] and have found it to be much easier
+than I feared it would be.  What would I write about?  Well, I had the
+idea that whenever I learn something new, I'll blog about it.  Well,
+that happens pretty much every day doing rails and web development.  So
+anytime now that I have to look something up or research an issue, I'll
+open up Evernote and make a few notes, save the urls or code snippets I
+used, and save it for later on.  Then I'll write a blog post about it.
+Sometimes, if it's a quick post, I'll just top working on the client
+work and crank out the blog.
+
+The other day, I recorded a screencast of me setting up a [ refinery cms
+rails app and deploying to heroku ][5] and published it to my blog.  A
+few days later, I had the idea to sending it to Peter Cooper who
+publishes a popular Ruby newsletter called [Ruby
+Weekly](http://rubyweekly.com/).  I didn't think there was any way he'd
+publish it, but today Ruby Weekly was released and I about jumped
+through the roof when I saw he published a link to my post.  
+
+So there you have it...a quick success story of starting a blog,
+actually publishing some posts and getting it picked up by a popular
+industry newsletter.  I think I'm a believer!
+
+
+[2]:http://www.meetup.com/transform-athens/events/159982002/
+[3]:https://twitter.com/saddington
+[4]:/blog/simple-rails-blogging-with-vim-markdown
+[5]:/blog/install-refinerycms-and-deploy-to-heroku
