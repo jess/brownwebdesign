@@ -43,6 +43,7 @@ gem 'compass-rails'
 gem 'postmarkdown', github: "jess/postmarkdown", branch: "production"
 gem 'rack-canonical-host'
 gem 'foundation-rails'
+gem 'rack-rewrite'
 
 group :development do
   gem 'rack-livereload'
