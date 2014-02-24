@@ -144,7 +144,18 @@ back in as the admin.
 
 What do you think?
 
+<hr>
 
+#### UPDATE:
+
+I really appreciate [Andy Lindeman](http://www.twitter.com/alindeman)
+and [Jonathan Wallace](https://twitter.com/jonathanwallace) reviewing
+my article and making some great suggestions:
+
+* [Changes From Jonthan's
+  Feedback](https://github.com/jess/brownwebdesign/commit/0a6c3679a9cb12afbe95204526efa186c22c7b7b)
+* [Change from Andy's
+  Feedback](https://github.com/jess/brownwebdesign/commit/0d227fe1af603ea0f1f59735683db750bd389eb5)
 
 [1]:http://activeadmin.info/
 [2]:https://github.com/ryanb/cancan
