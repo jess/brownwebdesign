@@ -8,3 +8,10 @@
     = paginate collection
   - else
     No posts found.
+
+.search
+  %hr
+  %h3 Search
+  =javascript_include_tag "search"
+  <gcse:searchbox-only resultsUrl="/results"></gcse:searchbox-only>
+  %hr

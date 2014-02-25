@@ -4,6 +4,7 @@
 @import "blog";
 @import "home";
 @import "font-awesome";
+@import "compass";
 
 body {
   background: #F7F7F7;
@@ -71,6 +72,14 @@ section.payment {
 }
 
 
+.gsc-control-searchbox-only, .gsc-control-cse {
+  @include global-reset;
+  input, input:hover,
+  input:focus {
+  background-image: inherit;
+  box-sizing: content-box;
+  }
+}
 
 
 @import "responsive";
