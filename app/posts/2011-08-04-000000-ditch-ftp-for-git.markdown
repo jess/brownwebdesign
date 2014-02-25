@@ -1,0 +1,94 @@
+---
+author: Jess Brown
+email: jess@brownwebdesign.com
+title: Ditch FTP For GIT
+---
+
+Ever since I started learning Ruby On Rails several years ago, I’ve been
+using git.  Git is a cool tool you can use for version control, or in
+some cases, simple incremental backups.  It basically keeps track of
+your code and file changes, you commit/save the changes and can revert
+back, review history and do all sorts of cool stuff.  It additionally
+will allow you to setup a remote repository to push changes to.  That’s
+where this article comes in.
+
+Using git in rails is really a must, but in the static world, FTP mostly
+dominates.
+
+I’m really tired of using FTP.  I probably hit Command + Shift + Upload
+200 times a day.  Sometimes I edit files very quickly and hop from file
+to file, add images to a images directory and javascript files to the js
+directory.  How can I remember which files to FTP?  It can be as simple
+as “git push” and only my changes are updated.
+
+**First off, requirements:**
+
+
+- web server with shell access
+- web server with git installed
+- local machine with a terminal
+- local machine with git installed
+- local machine to test (if you can’t run your code on your local
+  machine or local server, it doesn’t make much sense to setup git...it
+would be painful to add, commit, push every tiny change)
+
+
+Get Started
+-----------------------
+
+### Server Side
+Take care of the server side first.  ssh into your web server and find a
+place outside your public folder.  For example, a cpanel server is
+`/home/account_name/public_html`.  I’d store it in `/home/account_name`.
+
+    mkdir account_name.git && cd account_name.git
+    git init --bare
+
+Now we’ll tell git where to store the actual files:
+
+    git config core.worktree /home/account_name/public_html
+    git config core.bare false
+    git config receive.denycurrentbranch ignore
+
+Now we have to tell git what to do after we push changes.  Create and
+open a new file:
+
+    vim hooks/post-receive
+
+In this file place this code:
+
+    #!/bin/sh
+    #tell git to copy over the files
+    git checkout -f
+    #change ownership of files so your web server can serve them (I’m logging in as root so it may not be necessary if you logging in as account_name
+    chown -R account_name:account_name /home/account_name/public_html/*
+
+
+Note:  This file (post-receive) needs to be executable.  To be sure:
+
+    chmod 755 hooks/post-receive
+
+### Local Side
+
+Navigate to the directory where your website code lives.  If you haven’t already setup git:
+
+    git init
+    git add .
+    git commit -m ‘initial commit’
+
+Now link up the remote repository:
+
+    git remote add origin ssh://user@yourwebserver.com/home/account_name/account_name.git
+
+Now it’s time for the magic:
+
+    git push origin master
+
+Your website should now be live.  You can now make changes locally, test
+and then push. Example:
+
+    #...make some changes to your code
+    # test them (this could be a visual QA test or automated test)
+    git add .
+    git commit -m ‘my first changes’
+    git push #no need for the origin master now
