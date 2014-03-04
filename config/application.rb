@@ -17,6 +17,7 @@ module Brownwebdesign
 
   config.middleware.insert_before(Rack::Runtime, Rack::Rewrite) do
     r301      %r{/blog/\d+/\d+/(.*)},    '/blog/$1'
+    r301      '/book',    '/schedule'
   end
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
