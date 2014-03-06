@@ -75,7 +75,7 @@ user/pass).
 As you can see, I'm using [cancan][2] to authorize my controller
 actions.  The main action of concern is the "author" action because that
 actually logs a user in as another user.  We don't want
-that being explioted.  We load and authorize the author that we want to
+that being exploited.  We load and authorize the author that we want to
 log into. As you can see below, authors only have the ability to manage
 themselves.  I add an extra layer of security `authorize! :impersonate,
 @author` that will prevent an author from being able to give themself
