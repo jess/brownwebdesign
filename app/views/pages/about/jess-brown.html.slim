@@ -1,0 +1,79 @@
+.row
+  .columns.large-2.large-centered.text-center
+    =image_tag "profile.png"
+.row
+  .columns.large-10.text-center.large-centered
+    h1 Jess Brown
+    p
+      = mail_to "jess@brownwebdesign.com"
+      br
+      =link_to "@BrownWebDesign", "//www.twitter.com/BrownWebDesign"
+    hr
+.row.work
+  .columns.large-10.large-centered
+    =render "pages/about/jess_intro"
+    h3 Work
+    ul
+      li
+        a href="http://www.montlick.com" www.montlick.com 
+        span.label.success redesign
+        span.label app development
+      li
+        a href="http://www.nexchain.com" www.nexchain.com
+        span.label.success design
+        span.label app development
+      li 
+        a href="http://www.csepub.com" www.csepub.com
+        span.label.success app development
+      li 
+        a href="http://www.gypsimobile.com" www.gypsimobile.com
+        span.label.success app development
+        span.label.alert mobile api
+      li 
+        a href="http://www.congrueit.com" www.congrueit.com
+        span.label design 
+        span.label.success app development
+      li 
+        a href="http://www.joliemontlick.com" www.joliemontlick.com
+        span.label design 
+        span.label.success app development
+      li 
+        a href="http://www.monroega.com" www.monroega.com
+        span.label design 
+        span.label.success cms modifications
+      li 
+        a href="http://www.thewarehouse.org" www.thewarehouse.org
+        span.label design
+        span.label.success app development
+      li 
+        a href="http://www.lumite.com" www.lumite.com
+        span.label design
+
+    h3 Open Source
+    ul
+      li Rails contributor
+      li RefineryCMS Contributor
+      li Serve Contributor
+      li PostMarkdown Contributor
+      li Ti82 Gem Author
+      li Quotes App Creator
+
+    h3 Writing
+    p 
+      | Blogging at 
+      =link_to "www.brownwebdesign.com/blog", "/blog"
+
+    p Recent Publications:  
+
+    ul
+      li Ruby Weekly, Issue 185, March 6, 2014
+      li Ruby Weekly, Issue 183, February 20, 2014
+
+    h3 Community
+    ul
+      li CoFounder: Athens Developer's Meetup
+      li Coach: Startup Weekend
+      li Speaker: Atlanta Ruby Meetup
+
+    h3 SaaS Products
+    p= link_to "www.brownwebsites.com", "http://www.brownwebsites.com"
