@@ -7,6 +7,9 @@ fit to partner with for your next project.
 If you have a project in mind, please give us a call (770-266-5849) or
 [schedule][2] a convenient time to speak.
 
+Find out more about me and some of my [recent work][]
+
 
 [1]:/blog
 [2]:/schedule
+[recent work]:/about/jess-brown
