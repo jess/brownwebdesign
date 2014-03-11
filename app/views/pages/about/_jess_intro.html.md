@@ -1,5 +1,6 @@
 I've wanted to be an entrepreneur as long as I can remember.  I finally
 got a chance to start a business in 2008 when my wife finally said OK.
+We started Brown Web Design, a web design and development consultancy.
 It's been quite an experience since those early years. 
 
 Since then much has changed, but, then again, nothing has changed. I've
