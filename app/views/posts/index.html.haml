@@ -1,12 +1,7 @@
 -@meta_title = "Blog About Web Development, Ruby on Rails and Independent Consulting"
 = render 'feed_link'
 
-.row.view_selector
-  .columns.large-offset-9.large-3.text-right
-    =link_to post_titles_path, title: "List View", data: {view_style: ""} do 
-      =fa_icon 'list'
-    =link_to posts_path, title: "Blog View", data: {view_style: ""} do 
-      =fa_icon 'file-text-o'
+= render :partial => 'posts/view_selector'
 
 %section#posts
   - if collection.present?
