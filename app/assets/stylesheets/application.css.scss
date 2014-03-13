@@ -57,7 +57,7 @@ body {
       color: darken($blue, 7%);
       font-size: 2em;
       margin-right: 1em;
-      &:hover {
+      &:hover, &.active {
         color: #fff;
       }
     }
@@ -88,5 +88,14 @@ section.payment {
   }
 }
 
+.label {
+  vertical-align: middle;
+}
+
+.view_selector {
+  a.active {
+    color: #ccc;
+  }
+}
 
 @import "responsive";

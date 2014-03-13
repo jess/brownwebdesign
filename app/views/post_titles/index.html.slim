@@ -1,0 +1,10 @@
+= render :partial => 'posts/view_selector'
+section#posts
+  h1 Blog Articles By Title
+  ul
+    -@posts.each do |post|
+      li
+        = link_to post.title, post
+        |  
+        span.label= post.date.strftime '%e %B %Y'
+

@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
-//= require turbolinks
+//= require active_menu
+//= require view_selector
 
 $(function(){ $(document).foundation(); });
+//= require turbolinks
