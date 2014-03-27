@@ -13,7 +13,7 @@ module HandleSsl
 
   def redirect_to_normal_domain
     if !on_normal_domain? && !on_ssl_required_page?
-      redirect_to "http://www.brownwebdesign.com#{request.path}"
+      redirect_to "http://www.brownwebdesign.com#{request.path}", :status => 301
     end
   end
 
