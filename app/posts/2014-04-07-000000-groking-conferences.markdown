@@ -147,6 +147,8 @@ So, my final conclusion is: conferences are worth it. You can't go to
 them all, but selectively choose at least several a year to attend and
 it'll be worth your trip!
 
+[Follow me on twitter](https://twitter.com/brownwebdesign)
+
 
 
 [LessConf]:http://lessconf.lesseverything.com/
