@@ -114,7 +114,7 @@ she'll come with me to the dinners and hangouts.
 ### Not all bliss
 
 Despite all of the positives, I'd be remiss if I didn't say there are
-hurtles as well. Besides the financial burden, mixing and mingling can
+hurtles as well. Besides the financial cost, mixing and mingling can
 be extremely difficult for some. I figure I fit more in the "outgoing"
 category and I still have a ton of insecurities. This is no reflection
 on Grok or any other tech conference. In my experience, they're always
@@ -142,6 +142,10 @@ All in all it's a great experience. Grok was exceptional and I already
 know I'll be back next year. Hopefully the relationships I rekindled and
 started will evolve further.  Hopefully several cool projects will come
 my way via a referral from a fellow groker!
+
+So, my final consclusion is: conferences are worth it. You can't go to
+them all, but selective choose at least several a year to attend and
+it'll be worth your trip!
 
 
 
