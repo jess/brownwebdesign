@@ -81,7 +81,7 @@ nice good looking (ok that's a stretch :-) guy they met and consider me.
 
 #### 5. Inspiration
 
-There's usually some keynote speaker there by design to deliver
+There's usually a keynote speaker or two there by design to deliver
 inspiration. At Grok this year, for me, it was [Kristian Anderson][]. 
 
 He talked about the misguidance of following you passion. My take on it
