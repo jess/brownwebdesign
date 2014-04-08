@@ -143,8 +143,8 @@ know I'll be back next year. Hopefully the relationships I rekindled and
 started will evolve further.  Hopefully several cool projects will come
 my way via a referral from a fellow groker!
 
-So, my final consclusion is: conferences are worth it. You can't go to
-them all, but selective choose at least several a year to attend and
+So, my final conclusion is: conferences are worth it. You can't go to
+them all, but selectively choose at least several a year to attend and
 it'll be worth your trip!
 
 
