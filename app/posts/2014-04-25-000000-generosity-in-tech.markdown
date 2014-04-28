@@ -5,19 +5,20 @@ email: jess@brownwebdesign.com
 ---
 
 I recently spoke at [Tech Talent South][1] which is a school that
-teaches an intensive course on Ruby on Rails. Most of them were not only
-new to rails, but were also starting a career as a developer in the tech
-industry.  
+teaches an intensive course on Ruby on Rails. After meeting them, I
+learned that most in this particuar class were not only new to rails,
+but were also starting a career as a developer in the tech industry.  
 
 My presentation was about independent consulting and how I make a living
 doing it. I shared a lot of things I was a little uncomfortable sharing
-(income, struggles, advantages, disadvantages, etc). 
+(income, struggles, advantages, disadvantages, etc). I wanted to be
+honest, open, and helpful.
 
 I'm not quite sure why I was chosen to speak, but my reasoning for going
 was I wanted to do what I could to help others...just as so many have
-helped me in my career.  During the presentation I spoke about
-generosity and giving back and how awesome our industry is at sharing
-and helping others.
+helped me in my career. During the presentation one of the topics I
+spoke about was generosity and giving back and how awesome our industry
+is at sharing and helping others.
 
 I've never seen another industry that shares like we do.  Our sharing
 through open source ([Rails][]), blogging, ([Rails Tips][]), teaching
