@@ -5,9 +5,9 @@ email: jess@brownwebdesign.com
 ---
 
 I recently spoke at [Tech Talent South][1] which is a school that
-teaches an intensive course on Ruby on Rails. After meeting them, I
-learned that most in this particuar class were not only new to rails,
-but were also starting a career as a developer in the tech industry.  
+teaches an intensive course on Ruby on Rails. After meeting the
+students, I learned that most in this particuar class were not only new
+to rails, but were mostly new to the tech industry.  
 
 My presentation was about independent consulting and how I make a living
 doing it. I shared a lot of things I was a little uncomfortable sharing
