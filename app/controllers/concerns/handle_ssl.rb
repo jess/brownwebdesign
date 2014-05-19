@@ -26,6 +26,6 @@ module HandleSsl
   end
 
   def ssl_only_list
-    ["/payments"]
+    ["/payments", "/charges"]
   end
 end
