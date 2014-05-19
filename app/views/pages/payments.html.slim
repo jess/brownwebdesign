@@ -7,8 +7,12 @@ section.payment
       p Please enter an amount you would like to pay in the field below. You can either pay with a Credit Card or a Pay Pal account (if you have one).
       h4 Credit Card Payment
       .row
+        .columns.large-12.cc-result
+          div data-alert="" class="alert-box success radius"
+      .row.cc-form
         .columns.large-6
-          input type="text" name="amount" value="" class="amount" placeholder="Amount"
+          =form_tag charges_path do
+            input type="text" data-key="#{Rails.configuration.stripe[:publishable_key]}" name="amount" value="" class="amount" placeholder="Amount"
         .columns.large-6
           button class="button expand" id="stripeCheckout" Make a credit card payment
       hr

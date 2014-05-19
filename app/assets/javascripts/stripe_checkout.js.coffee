@@ -1,7 +1,15 @@
 handler = StripeCheckout.configure(
-  key: "pk_rkGZsTKZuD7Bh4uTZVbhV0na7SSEV"
+  key: $("input[data-key]").data("key")
   image: '/images/stripe-logo.png'
   token: (token, args) ->
+    amount = (parseFloat $('.amount').val()) * 100
+    $.post("/charges"
+      stripeToken: token.id
+      amount: amount
+      email: token.email
+    ).done (data) ->
+      $( ".cc-form" ).hide()
+      $( ".cc-result" ).show().find(".alert-box").html(data)
 )
 
 # Use the token to create the charge with a server-side script.

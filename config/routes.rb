@@ -2,6 +2,7 @@ Brownwebdesign::Application.routes.draw do
   postmarkdown :as => :blog, :permalink_format => :slug
   root 'home#index'
   resources :post_titles, :only => :index
+  resources :charges, :only => :create
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

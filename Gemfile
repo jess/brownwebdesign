@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'dotenv-rails', :groups => [:development, :test]
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 ruby '2.1.0'
@@ -44,6 +46,7 @@ gem 'postmarkdown', github: "jess/postmarkdown", branch: "production"
 gem 'rack-canonical-host'
 gem 'foundation-rails'
 gem 'rack-rewrite'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 group :development do
   gem 'rack-livereload'
