@@ -1,3 +1,5 @@
+@import 'compass';
+
 body.blog {
   font-family: $blog-body-font-family;
   section#posts, article.post {
@@ -49,6 +51,15 @@ body.blog {
   .footnote {
     font-size: 80%;
     font-style: italic;
+  }
+
+  .large-blog-photo {
+    min-height: 650px;
+    background-position: center center;
+    margin-top: -3em;
+    margin-bottom: 3em;
+    @include background-size(cover);
+    background-repeat: no-repeat;
   }
 }
 

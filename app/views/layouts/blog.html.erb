@@ -3,6 +3,7 @@
 <%= render 'layouts/head' %>
 <body class="blog">
 <%= render "layouts/menu" %>
+<%= render "posts/large_photo", photo: @large_photo %>
 <div class="row">
   <div class="columns large-9 large-centered">
     <%= yield %>

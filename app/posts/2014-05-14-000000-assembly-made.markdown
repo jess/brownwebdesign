@@ -1,0 +1,116 @@
+---
+title: Working On Assembly Made
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+<% @large_photo = "blog/greenville-river.jpg" %>
+
+
+### Assembly Made: What is it?
+
+A month or so ago I found out about a cool new platform called [Assembly
+Made][1]. The idea is pretty simple and works like this: Someone has an
+idea for a business and they post it to Assembly Made. The idea gains
+traction and popularity by people discussing the business plan, market,
+potential, customers, etc. Then, if there's enough interest, the
+community starts to develop it. Almost anyone can contribute. Apps need
+all sorts of skills to be built: copyrighting, photography, design,
+code, ops, etc. A core team is established to provide direction and
+create tasks for the project. Each task is valued a certain amount of
+"coins" and when someone completes the task, they are awarded the
+coins. The amount of coins you have for a project determine your equity
+stake in the business and also determine your share in the profit
+sharing system. Assembly keeps 5% of the equity and the project owner is
+reserved 5% of the equity. The rest is earned by the contributors.
+
+This is really an interesting idea and I can't wait to see how it will
+play out as new products are built and launched. No one knows how
+successful (or not) this concept of crowd sourcing the development of
+software will be. As with any business, especially a startup, many of
+these businesses could fail and never get a single customer. So is it
+worth your time? I think so and here's why.
+
+#### Working with great people
+
+There are some great people working on Assembly products. If you've
+never worked on a team or just want to get some experience with the
+experienced, then this is an easy way to to do it. 
+
+#### Learning
+
+Whenever you work with other people, especially with others as good or
+better than your own skill level, then you're learning shoots through
+the roof. I always learn so much working others.
+
+#### It's easy to get started
+
+It's really easy to get started. The Assembly staff is always around to
+answer questions, hop on chat, screenshare, pair, help you get setup
+etc. They also do a good job of breaking down tasks so they're small
+enough that anyone can get started. Example: anyone can edit copy,
+right? And once you get started, the next tasks are much easier.
+
+#### Working with actual projects
+
+As a consultant, most of my experience is with building products for
+clients. I love open source and think it's very important to contribute
+and give back, but it's never been easy for me and probably others too.
+Lots of open source projects are tools, libraries, gems, engines, etc
+that are a lot more complicated than 90% of a typical rails app. So I
+found working with a actual product (which, in my observation, is what
+the majority of Assembly projects are) more up my alley.
+
+#### Work at your own pace / commitment level
+
+Because the tasks are broken down in to small stories, it's really easy
+to work a little or a lot. Some weeks I have more time than others and
+can spend a whole day working on Assembly. Other weeks I only have a few
+hours and some weeks, I have no time at all. When you decide to work on
+a task, there's a button that click "work on this task" that reserves it
+so others know you're working on it. Only reserve a task when you're
+ready to work on it and can get it done in a reasonable time, because
+there could be others that are able and willing to get it done too.
+
+#### Boost your portfolio
+
+If you're a creative, your portfolio is crucial in helping you win
+projects, clients, or jobs. Adding projects you've worked on from
+Assembly will likely bring the status and allure of your portfolio up.
+Clients will be impressed with the work that you and you team have
+produced and may be more willing to hire you for your next big project.
+All projects are open sourced, so it's easy to share your contributions.
+
+#### Connections / Networking
+
+Already mentioned is working with others to improve your skills, but
+working with others will also lead to new relationships, friendships,
+connections and networking opportunities. If you're a developer, a
+designer may notice your work and want to work with you on their next
+project. An entrepreneur may notice your feedback on discussions and
+want to hire you for their next project. A core team member may
+recommend you for a job within their company. Assembly is a great place
+to meet and work with other creatives like you.
+
+### Summary
+
+In addition to all of the "side" benefits, I do like the core product.
+There's a simple profit sharing plan, contributions are automatically
+calculated when commits are merged in, and it's a nice way to invest in
+startups and take ownership of a business.
+
+A few weeks ago I joined a friend from Atlanta, [Patrick Van Stee][2]
+(who works for Assembly) and we drove to Greenville, SC to join up with
+[Matthew Smith][3] to work on one of the Assembly projects called
+[Helpful][4] (now you know where the photo above came from :-) Besides
+being a fun "work" trip, it was a great opportunity to work with Patrick
+(who is a talented developer) and Matthew (a well known and talented
+designer). Had it not been for Assembly, I probably would have never
+gotten the chance.
+
+Go checkout [Assembly][1] and find something to work on!
+
+
+[1]:http://www.assemblymade.com
+[2]:https://twitter.com/vanstee
+[3]:https://twitter.com/whale
+[4]:https://helpful.io
