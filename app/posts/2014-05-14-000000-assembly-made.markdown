@@ -96,7 +96,10 @@ to meet and work with other creatives like you.
 In addition to all of the "side" benefits, I do like the core product.
 There's a simple profit sharing plan, contributions are automatically
 calculated when commits are merged in, and it's a nice way to invest in
-startups and take ownership of a business.
+startups and take ownership of a business. **Hopefully, the real reason
+you decide to work on a project is because you believe in the product
+and feel it will be profitable while solving a problem.** However, these
+other benefits are totally valuable in their own right.
 
 A few weeks ago I joined a friend from Atlanta, [Patrick Van Stee][2]
 (who works for Assembly) and we drove to Greenville, SC to join up with
