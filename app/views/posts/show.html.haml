@@ -1,5 +1,6 @@
 = render 'feed_link'
-
 -@meta_title = resource.title
 = render resource, :summary => false
 =render "discus_comments"
+- content_for :large_photo do
+  = render "posts/large_photo", photo: @large_photo
