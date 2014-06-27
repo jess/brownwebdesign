@@ -1,16 +1,54 @@
 -@meta_title = t(".meta_title")
-.intro
-  =render "layouts/menu"
-  section 
-    .row
-      .columns.large-12
-        .statement
-          h1 We Design & Build Software On The Internet
-        .icons
-          =image_tag "icons.png"
+- @dark_logo = true
+section.intro
+  .background
+    .pattern
+      =render "layouts/menu"
+      .we-do
+        .middle-page
+          .row
+            .columns.large-12
+              .statement
+                h1 We Design & Build Software On The Internet
+              .icons
+                =image_tag "icons.png"
+          .row
+            .columns.large-12.call-to-action
+              h2 Review Some Of Our Work
+      a data-down-arrow="" class="down-arrow"
+        =fa_icon "chevron-down"
 
-  section.blurb
-    .row
-      .columns.large-10.large-centered
-        =render "home/intro"
+section.csepub-intro
+  .background
+    .pattern
+      .middle-page
+        .row
+          .columns.large-4
+            h1 CSePub.com
+            p.lead We helped CSePub build a state-of-the-art epublishing platform & and exercise package program.
+            p =link_to "Learn More", page_path("work/csepub.com"), class: 'button small'
+          .columns.large-8
+            =image_tag "work/csepub/intro.png"
+
+  a data-down-arrow="" class="down-arrow"
+    =fa_icon "chevron-down"
+
+
+section.congrueit
+  .background
+    .pattern
+      .middle-page
+        .row
+          .columns.large-4
+            h1 CongrueIT.com
+            p.lead 
+              | Finding good talent has always been difficult for
+                employers and finding good projects has always been a
+                challenge for consultants. Until NOW
+            p =link_to "Learn More", page_path("work/congrueit.com"), class: 'button small'
+          .columns.large-8.text-center
+            =image_tag "work/congrueit/intro.png"
+  a data-up-arrow="" class="down-arrow"
+    =fa_icon "chevron-up"
+
 

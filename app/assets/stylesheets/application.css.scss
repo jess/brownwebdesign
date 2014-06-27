@@ -1,10 +1,13 @@
 @import "foundation_and_overrides";
 @import "colors";
+@import "mixins";
 @import "postmarkdown/syntax/github";
 @import "blog";
 @import "home";
 @import "font-awesome";
 @import "compass";
+@import "work/*";
+@import "animate";
 
 body {
   background: #F7F7F7;

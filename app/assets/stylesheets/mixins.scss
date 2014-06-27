@@ -1,0 +1,16 @@
+@mixin dark-menu($background-color) {
+  .menu {
+    background: #fff;
+
+    .icon-nav a {
+      color: $background-color;
+    }
+
+    .logo {
+      img {
+        padding: 10px 0;
+      }
+    }
+  }
+}
+

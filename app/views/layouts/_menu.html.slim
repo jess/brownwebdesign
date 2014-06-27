@@ -3,7 +3,10 @@
     .columns.small-5
       .logo
         =link_to "/" do
-          =image_tag "logo.png"
+          - if @dark_logo
+            =image_tag "dark_logo.png"
+          - else
+            =image_tag "logo.png"
     .columns.small-7
       .icon-nav
         =link_to "/blog", title: "Blog" do

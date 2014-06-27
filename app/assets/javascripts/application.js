@@ -15,6 +15,8 @@
 //= require foundation
 //= require active_menu
 //= require view_selector
+//= require scroll
+//= require home_animations
 
 $(function(){ $(document).foundation(); });
 //= require turbolinks
