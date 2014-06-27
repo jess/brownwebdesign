@@ -135,4 +135,31 @@ body.home {
       font-size: 1em;
     }
   }
+
+  // CongrueIt Work Secton
+  section.about {
+    color: #fff;
+    .middle-page {
+      margin-top: -10%;
+    }
+    .background {
+      @include background-image(radial-gradient(closest-corner, rgba(16, 47,
+      70, 0) 60%, rgba(16, 47, 70, 0.26)), linear-gradient(108deg,
+      #5a5f9d, #f1b5c0 90%));
+
+      .pattern {
+        background: image_url("work/csepub/pattern.png") repeat;
+      
+      }
+    }
+    h1 {
+      color: #fff;
+      margin-top: 1.4em;
+    }
+    .button {
+      background: transparent;
+      border: 1px solid #fff;
+      font-size: 1em;
+    }
+  }
 }
