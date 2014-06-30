@@ -6,21 +6,34 @@
 }
 body.home {
   @include dark-menu($blue);
+  .menu {
+    margin-bottom: 0;
+  }
   @include font_family;
   section {
-    height: 100%;
-    position: relative;
+    text-align: center;
+    .button {
+      background: transparent;
+      border: 1px solid #fff;
+      font-size: 1em;
+    }
+
+    h1 {
+      color: #fff;
+      margin-top: 1.4em;
+    }
+
+    .columns {
+      text-align: center;
+    }
 
     .background {
       background: $blue;
-      height: 100%;
       .pattern {
         background: image_url("work/csepub/pattern.png") repeat;
-        height: 100%;
+        padding-bottom: 3em;
       }
-
       .middle-page {
-        position: absolute;
         width: 100%;
         top: 40%;
       }
@@ -28,11 +41,7 @@ body.home {
     }
 
     a.down-arrow {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
       color: #fff;
-      margin-left: -37px;
 
       i {
         font-size: 5em;
@@ -44,9 +53,7 @@ body.home {
   // Intro Section
   
   section.intro {
-    height: 100%;
     color: #fff;
-    text-align: center;
     .background {
       @include background-image(radial-gradient(closest-corner, rgba(16, 47,
       70, 0) 60%, rgba(16, 47, 70, 0.26)), linear-gradient(108deg,
@@ -59,17 +66,14 @@ body.home {
     }
 
     .we-do {
-      padding-top: 5em;
       .call-to-action {
         font-size: 2em;
-        margin-top: 4em;
         h2 {
           color: #FFF;
           opacity: 0.8;
         }
       }
       h1 {
-        color: #fff;
         @include font_family;
         @include font_weight;
         font-size: 2.2em;
@@ -85,9 +89,6 @@ body.home {
   // Csepub Work Secton
   section.csepub-intro {
     color: #fff;
-    .middle-page {
-      margin-top: -10%;
-    }
     .background {
       @include background-image(radial-gradient(closest-corner, rgba(16, 47,
       70, 0) 60%, rgba(16, 47, 70, 0.26)), linear-gradient(108deg,
@@ -95,26 +96,13 @@ body.home {
 
       .pattern {
         background: image_url("work/csepub/pattern.png") repeat;
-      
       }
-    }
-    h1 {
-      color: #fff;
-      margin-top: 1.4em;
-    }
-    .button {
-      background: transparent;
-      border: 1px solid #fff;
-      font-size: 1em;
     }
   }
 
   // CongrueIt Work Secton
   section.congrueit {
     color: #fff;
-    .middle-page {
-      margin-top: -10%;
-    }
     .background {
       @include background-image(radial-gradient(closest-corner, rgba(16, 47,
       70, 0) 60%, rgba(16, 47, 70, 0.26)), linear-gradient(108deg,
@@ -122,26 +110,13 @@ body.home {
 
       .pattern {
         background: image_url("work/csepub/pattern.png") repeat;
-      
       }
-    }
-    h1 {
-      color: #fff;
-      margin-top: 1.4em;
-    }
-    .button {
-      background: transparent;
-      border: 1px solid #fff;
-      font-size: 1em;
     }
   }
 
-  // CongrueIt Work Secton
+  // About Secton
   section.about {
     color: #fff;
-    .middle-page {
-      margin-top: -10%;
-    }
     .background {
       @include background-image(radial-gradient(closest-corner, rgba(16, 47,
       70, 0) 60%, rgba(16, 47, 70, 0.26)), linear-gradient(108deg,
@@ -149,17 +124,7 @@ body.home {
 
       .pattern {
         background: image_url("work/csepub/pattern.png") repeat;
-      
       }
-    }
-    h1 {
-      color: #fff;
-      margin-top: 1.4em;
-    }
-    .button {
-      background: transparent;
-      border: 1px solid #fff;
-      font-size: 1em;
     }
   }
 }

@@ -8,4 +8,97 @@
       }
     }
   }
+
 }
+@media only screen and (min-width: 960px) {
+  body.home {
+    section {
+      height: 100%;
+      position: relative;
+
+      .background {
+        height: 100%;
+        .pattern {
+          height: 100%;
+        }
+
+        .middle-page {
+          position: absolute;
+          width: 100%;
+          top: 40%;
+        }
+
+      }
+
+      a.down-arrow {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -37px;
+
+        i {
+          font-size: 5em;
+          opacity: 0.3;
+        }
+      }
+    }
+
+    // Intro Section
+    
+    section.intro {
+      height: 100%;
+
+      .we-do {
+        .call-to-action {
+          font-size: 2em;
+          margin-top: 4em;
+        }
+      }
+    }
+
+    // Csepub Work Secton
+    section.csepub-intro {
+      .middle-page {
+        margin-top: -10%;
+      }
+    }
+
+    // CongrueIt Work Secton
+    section.congrueit {
+      .middle-page {
+        margin-top: -10%;
+      }
+    }
+
+    // About Secton
+    section.about {
+      color: #fff;
+      .middle-page {
+        margin-top: -10%;
+      }
+      .background {
+        @include background-image(radial-gradient(closest-corner, rgba(16, 47,
+        70, 0) 60%, rgba(16, 47, 70, 0.26)), linear-gradient(108deg,
+        #5a5f9d, #f1b5c0 90%));
+
+        .pattern {
+          background: image_url("work/csepub/pattern.png") repeat;
+        
+        }
+      }
+    }
+  }
+}
+//@media only screen and (min-width: 250px) {
+//
+//  body.home {
+//    section {
+//      height: auto;
+//      .background {
+//        .middle-page {
+//          top: 20%;
+//        }
+//      }
+//    }
+//  }
+//}

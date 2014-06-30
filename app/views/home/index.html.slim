@@ -30,8 +30,8 @@ section.csepub-intro
           .columns.large-8
             =image_tag "work/csepub/intro.png"
 
-  a data-down-arrow="" class="down-arrow"
-    =fa_icon "chevron-down"
+      a data-down-arrow="" class="down-arrow"
+        =fa_icon "chevron-down"
 
 
 section.congrueit
@@ -49,23 +49,25 @@ section.congrueit
           .columns.large-8.text-center
             =image_tag "work/congrueit/intro.png"
 
-  a data-down-arrow="" class="down-arrow"
-    =fa_icon "chevron-down"
+      a data-down-arrow="" class="down-arrow"
+        =fa_icon "chevron-down"
 
 section.about
   .background
     .pattern
       .middle-page
         .row
-          .columns.large-4.push-2
+          .columns.large-4.large-push-2
             h1 About Me?
             p.lead 
               | Want to know a little more about me and my background?
             p =link_to "Learn More", page_path("about/jess-brown"), class: 'button small'
-          .columns.large-4.pull-2.text-center
-            =image_tag "profile-solo.png"
-  a data-up-arrow="" class="down-arrow"
-    =fa_icon "chevron-up"
+          .columns.large-4.large-pull-2.text-right
+            .row
+              .columns.small-6.small-centered.large-12
+                =image_tag "profile-solo.png"
+      a data-up-arrow="" class="down-arrow"
+        =fa_icon "chevron-up"
 
 
 
