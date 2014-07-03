@@ -1,0 +1,52 @@
+body.congrueit {
+  $background-color: #a2bfcf;
+  background: image_url("work/congrueit/bk.png") repeat;
+
+  @include dark-menu($background-color);
+
+  .wrapper {
+    background: #fff;
+    padding: 3em;
+
+    .lead {
+      color: #999;
+    }
+
+    .after-quote {
+      color: #999;
+      font-style: italic;
+      font-size: 90%;
+    }
+
+    h2 {
+      margin-top: 3em;
+    }
+
+    .testimonial {
+      padding: 3em;
+      text-align: center;
+      border-top: 1px solid #CCC;
+      border-bottom: 1px solid #CCC;
+      margin: 3em 0;
+      p {
+        font-size: 1.3em;
+        font-style: italic;
+        color: #fb9003;
+      }
+      cite {
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        color: #555;
+      }
+    }
+
+    .image {
+      margin: 3em 0;
+      @include single-box-shadow(#A3A3A3, 0px, 3px, 9px);
+      &.no-margin {
+        margin: 0;
+      }
+    }
+  }
+}

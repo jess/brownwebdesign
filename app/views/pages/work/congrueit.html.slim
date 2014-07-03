@@ -1,0 +1,122 @@
+- @body_class = "congrueit"
+- @dark_logo = true
+.wrapper
+  .row
+    .columns.text-center
+      =image_tag "work/congrueit/logo.png"
+      h1 Matchmaking For Consultants and Employers
+      hr
+  .row
+    .columns
+      p.lead
+        em
+          | Finding and staffing an IT contractor is a mess. 
+            The process is time consuming; it is frustrating and you do it again and again. 
+            And, everyone seems to accept that’s just the way it is...well, it’s not anymore. 
+            With CongrueIT, you are able to specify your requirements and be presented with consultants who can do the job. 
+            You can quickly target the right consultants and determine who you want to work with. 
+            If you're a Consultant; you see the jobs, you bid on the jobs you want. 
+            This is what CongrueIT is all about.
+
+      p
+        |
+          This was a fun project to work on for several reasons. 
+        =link_to "John & Gerhard", "http://www.congrueit.com/who-we-are" 
+        |  are great people to work with. They're sharp, experienced and very clear about what they want to do. 
+          They are also one of me...or a least they have been in the past, an independent consutant in the software industry.
+
+      p
+        | CongrueIT came to me with a working prototype. But it was in desperate need of a design and some UX love. 
+          Our first goal was nailing down a design and comeing up with a style guide and getting a home page up.
+
+      p
+        =image_tag "work/congrueit/home.jpg", class: 'image'
+
+      h2.text-center The Consultant
+      p.lead.text-center Laying the ground work
+      p
+        |
+          One of the unique parts of the CongrueIT app is that it has many different user roles. We decided to split the roles
+          up and work on the design and user flow for the consultants first since their strategy was to find and approve
+          consultants first into the system.
+
+  .row
+    .columns.large-7
+      p
+        =image_tag "work/congrueit/consultant.jpg", class: 'image', style: 'margin-top: 0;'
+    .columns.large-5
+      p
+        =image_tag "work/congrueit/consultants.jpg", class: 'image no-margin'
+      p
+        =image_tag "work/congrueit/consultant-timesheet.jpg", class: 'image no-margin'
+
+  .row
+    .columns
+      p
+        | This is a common stragety I use when working with clients. Most startups want to take the quickest path to prove their
+          idea by getting users in the system and ultimately testing their business / revenue model. By working closely with John 
+          and Gerhard, we were able to target their goals and build just what they needed to take the first steps. Then as each piece
+          was built, we moved on to the next, learing more and making the system better as we progressed.
+
+  .row
+    .columns
+      .testimonial
+        p 
+          | 
+            Jess jumped in and exceeded all of our expectations.
+        cite
+          | - John Moser, CoFounder, CongrueIT.com
+
+  .row
+    .columns
+      p.after-quote
+        | ** This unprompted quote from a launch party especially meant a lot to me, considering that it came from other consultants
+          who have been around independent consulting many years. I assume they expected A LOT.
+
+      h2.text-center The Customer
+      p.lead.text-center Laying the ground work
+
+      p
+        | We took the same approach for the customer. Now that the consultant's role was complete and consultants were being signed up
+          and moved through the interview and approval process, we started focusing on the customer's flow.
+  .row
+    .columns.large-7
+      p
+        =image_tag "work/congrueit/customer-job-posting.jpg", class: 'image', style: 'margin-top: 0;'
+    .columns.large-5
+      p
+        =image_tag "work/congrueit/customer-dashboard.jpg", class: 'image no-margin'
+      p.text-center
+        small.text-center Email notification
+        =image_tag "work/congrueit/customer-email.jpg", class: 'image no-margin'
+
+
+  .row
+    .columns
+
+      h2.text-center Post Launch
+      p.lead.text-center A partnership
+
+      p
+        | After the first phase launch, CongrueIT decided to keep me on as lead developer to build new features and to support 
+          the app. Since then, we've build a lot of new functionalities, and watched the system grow with the business. For instance,
+          one of the core features of their buisness model is their Congruence Formula for matching the most qualified developers with 
+          the job. I helped them implement and refine that algorghim as well as add few new roles to the system.
+
+      p
+        | I believe they enjoy working with me because I'm reliable and can get the work done within their expectations. They don't 
+          require a full time developer, so having a reliable independent consultant works out well for them. I'm available for quick 
+          fixes or emergencies immediately and they can get on my scheudle to plan building new features in reasonable time frames.
+          Like all of my clients, I hope they see me as a partner and as someone who's invested in their successes.
+  .row
+    .columns
+      .testimonial
+        p 
+          | 
+            Jess...FYI we demoed the system to a group of investors today and they were 
+          strong blown away 
+          | by the system!
+        cite
+          | - Gerhard Hacker, CoFounder, CongrueIT.com
+
+  = render 'shared/contactus'
