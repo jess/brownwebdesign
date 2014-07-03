@@ -1,0 +1,50 @@
+---
+title: Fear and Intimidation
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+This week I started working on a new project. Like all projects,
+especially existing ones, it can be a little overwhelming in the
+beginning. 
+
+#### The emotional side of the brain...
+
+Some projects I'm even **intimidated**.  This new project was one that I
+was particularly impressed with. It was using a lot of newer
+technologies I had not used (luckily I was mostly aware enough to know
+'of' them). It had tons of models, used all kinds of services, a new
+database I actually hadn't heard of, multiple API's I had never used,
+etc, etc.  
+
+When I get on projects like this, thoughts creep in to my head, "the
+previous developers are way more advanced that I am...what if I can't
+make it work, my client will think I'm not qualified when it takes me
+forever to figure things out." The list goes on.
+
+#### The logical side??
+
+However, when I think back to projects that have come up like this in
+the past, I look back and remember how much fun they were to "figure
+out". I see how much I learned and developed as a programmer. I say to
+myself, "you know, I always figure things out"...there's never been a
+time when I just gave up and couldn't complete a job.
+
+Also I'm not sure why I do this (and I'm hope I'm not the only one), but
+I put too much pressure on myself and expect to be able to just look at
+github repo and know exactly how it all works. I'm supposed to within a
+few hours of tinkering, figure out what took other developers years to
+build. Why do we do that? If start a new book, I don't expect to know
+what happens at the end. It takes time to become familiar with the
+business logic, the stories, flow, the methods the previous developers
+used, etc. The tests and code should tell a story, but you have to read
+the story to understand it and make contributions to it.
+
+#### So I conclude...
+
+A programmer's job is to solve problems and figure things out. That
+doesn't mean you're not going to feel overwhelmed and intimidated at
+times. If you don't, you're probably not challenging yourself enough. I
+encourage you like I encourage myself, *embrace the challenge, be
+thankful for the opportunity to level up and remember, you're a hacker,
+you'll figure it out!*
