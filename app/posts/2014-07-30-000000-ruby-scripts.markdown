@@ -44,44 +44,38 @@ def new_stripe_key
 end
 
 def old_customers
-  Stripe.api_key = old_stripe_key
-  Stripe::Customer.all(limit: 100)
+  Stripe::Customer.all({limit: 10}, old_stripe_key)
 end
 
 def new_customers
-  Stripe.api_key = new_stripe_key
-  Stripe::Customer.all(limit: 100)
+  Stripe::Customer.all({ limit: 100 }, new_stripe_key)
 end
 
 def migrate(customers)
-  if customers.data.empty?
-    puts "The End"
-    return
-  end
+  puts "The End" && return if customers.data.empty?
   puts customers.data.count
   sync_customers(customers.data)
-  Stripe.api_key = old_stripe_key
-  migrate(Stripe::Customer.all(limit: 100, starting_after: customers.data.last.id))
+  migrate(Stripe::Customer.all({ limit: 100, starting_after: customers.data.last.id }, old_stripe_key))
 end
 
 def sync_customers(customers)
   customers.each do |customer|
-    File.open('sync_log.txt', 'a') { |file| file.write(customer.id) }
+    File.open('sync.log', 'a') { |file| file.write("\n#{customer.id} ") }
     puts customer.id
     subscriptions = customer.subscriptions
     if subscriptions.data.any?
       subscriptions.data.each do |subscription|
-        File.open('sync_log.txt', 'a') { |file| file.write(" #{subscription.id}\n") }
+        File.open('sync.log', 'a') { |file| file.write("#{subscription.id}") }
         puts subscription.id
         plan_id = subscription.plan.id
         current_period_end = subscription.current_period_end
-        Stripe.api_key = new_stripe_key
         if MODE == :test
           new_customer = Stripe::Customer.create(
-            :description => "clone #{customer.id}"
+            { :description => "clone #{customer.id}" },
+            new_stripe_key
           )
         else
-          new_customer = Stripe::Customer.retrieve(customer.id)
+          new_customer = Stripe::Customer.retrieve(customer.id, new_stripe_key)
         end
         unless new_customer.subscriptions.data.map(&:id).include?(subscription.id)
           new_customer.subscriptions.create(:plan => plan_id, :billing_cycle_anchor => current_period_end, :prorate => false)
@@ -93,13 +87,10 @@ def sync_customers(customers)
 end
 
 def print_active_subscriptions(customers)
-  if customers.data.empty?
-    puts "The End"
-    return
-  end
+  puts "The End" && return if customers.data.empty?
   puts customers.data.count
   active_subscriptions_for(customers.data)
-  print_active_subscriptions(Stripe::Customer.all(limit: 100, starting_after: customers.data.last.id))
+  print_active_subscriptions(Stripe::Customer.all({ limit: 100, starting_after: customers.data.last.id }, customers.api_key))
 end
 
 def active_subscriptions_for(customers)
@@ -113,11 +104,7 @@ def active_subscriptions_for(customers)
   end
 end
 
-binding.pry
 ```
-<span class="footnote">* I threw a pry binding in there so I could
-manually run the script from the console</span>
-
 
 As you can see it's a crude but straightforward script. We didn't have a
 lot of time to implement it so I just hashed it out rather procedurally.
@@ -135,27 +122,29 @@ Typically you see api gems do something like
 ```
 
 But I didn't see how to get this type of instance with the stripe api.
-To set the api key, you just call `Stripe.api_key =  'xxx'`. This ended
-up working out ok, because you can see in the code I just reset the api
-key each time I needed to jump back to a new call.
+However, Stripe has great support and Brian Collins helped me out with
+how to pass the `api_key`. It's the last argument in the constructor,
+which means if you're passing options like in the `all` method, you have
+to wrap those options in `{}`.
 
 #### 2. How to run a test on non-live data
 
 Stripe gives you a great testing environment, but for our scenario (we
 would have customers in both accounts with identical ID's) we couldn't
 mimic the live setup(you cannot specify ID's when creating customers).
-So what I chose to do was just clone the customer instead of finding
-them in the new account while in test mode. And by passing in the old
+So while in test mode, what I chose to do was just clone the customer
+instead of finding them in the new account. And by passing in the old
 customer id to the description, I could easily locate the new customer
 to compare subscriptions.
 
 ```ruby
 if MODE == :test
   new_customer = Stripe::Customer.create(
-    :description => "clone #{customer.id}"
-  )
+      { :description => "clone #{customer.id}" },
+      new_stripe_key
+    )
 else
-  new_customer = Stripe::Customer.retrieve(customer.id)
+  new_customer = Stripe::Customer.retrieve(customer.id, new_stripe_key)
 end
 ```
 
