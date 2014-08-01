@@ -110,6 +110,11 @@ body.home {
 
       .pattern {
         background: image_url("work/csepub/pattern.png") repeat;
+        h3 {
+          font-style: italic;
+          color: white;
+          font-size: 1.5em;
+        }
       }
     }
   }
