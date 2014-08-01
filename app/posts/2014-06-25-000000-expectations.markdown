@@ -4,7 +4,7 @@ author: Jess Brown
 email: jess@brownwebdesign.com
 ---
 
-Expectations are a strange thing. Maybe because they're relative and
+Expectations tricky. Maybe because they're relative and
 hard to guess for other people.
 
 Recently my family and I headed off for our annual summer vacation.
@@ -46,9 +46,10 @@ tell a customer you'll have their work done for them by next week when
 in reality it's going to be longer. It's really difficult to get it
 right and I've messed it up plenty. For one, it's really hard to know
 when you'll have the time to work on something. Development work is
-never turnkey. There are always customizations and different
+never turnkey. There are always customizations and different a
 implementation for every business scenario.  Secondly, you don't want to
-seem slow. At least, I want to please the customer.
+seem slow and want to please the customer, so you see the shortest
+possible path from start to finish.
 
 But, I always go back to my vacation and think, if they'd just told us
 it'd be a little after 5 until we could get in, we would have been much
