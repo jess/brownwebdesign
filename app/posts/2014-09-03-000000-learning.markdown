@@ -46,6 +46,7 @@ new technologies. A few on at the top of my list are:
 1. node.js
 2. iOS
 3. elixir
+4. React or Ember (I've used Angular)
 
 Which one should I pick?
 
