@@ -4,7 +4,7 @@ author: Jess Brown
 email: jess@brownwebdesign.com
 ---
 
-I've been running small business now for <%= Date.today.year - 2008 %>
+I've been running a small business now for <%= Date.today.year - 2008 %>
 years and I think I've finally settled on a simple way I like to answer
 the key question...are we making money and if so how much?
 
@@ -16,7 +16,7 @@ paychecks, dividend withdrawals, profit sharing plans (retirement /
 investments aka my 401(k)) and other business perks / assets
 (healthcare, company car, etc, etc.). Sometimes the business checking
 will be way up, but the next month it'll be way down...but it's not
-necessarily down because of business expenses, maybe it was time for an
+necessarily down because of business expenses, maybe it was time for a
 scheduled investment withdrawal, or we made a transfer to a savings
 account, or...
 
