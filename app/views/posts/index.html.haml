@@ -7,9 +7,13 @@
   - if collection.present?
     = render collection, :summary => false
     %hr
+    %p Navigation
     = paginate collection
   - else
     No posts found.
+
+%hr
+=render "shared/newsletter_signup"
 
 .search
   %hr
