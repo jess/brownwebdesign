@@ -1,0 +1,52 @@
+---
+title: "Job Title: Learner"
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+This morning I read a [Quora][1] question posted by a student who wanted
+to learn Ruby on Rails, but wanted to know how easy or difficult it was
+to get a rails job. 
+
+I really like the response from a developer at Spotify. He said that
+right now, it's easy to get a rails job and it pays competitively with
+other like developer positions. 
+
+However, he said you cannot hang your hat on any one technology. If you
+want to be a great developer, you have to be prepared to learn
+constantly.
+
+> Constant learning is only behaviour that is guaranteed to get you
+> hired at the best companies and to give you job security as a
+> programmer. This is  common to all great and well-paid developers -
+> develop a hunger for learning. Learn because it fascinates you, not
+> because it will land you a job. Ironically, it is this attitude that
+> WILL land you the best jobs, and give you security long-term.
+
+I agree. When I started my company in 2008, I was constantly astonished
+by the degree with which each project differed. I always told my wife,
+*if I could just get one project that was like the last* we could really
+make a profit. The truth is, even if you do get two projects that are
+similar, if they are more than 6 months apart, some technology is going
+to have a different "better" way of implementation. 
+
+Now, that's not to say that experience doesn't account for anything. It
+does in a big way. When you have to update a gem or software
+version, the more experienced you are, the more quickly you'll adapt, but
+**you'll never stop learning**. If you do stop learning, you're likely
+going to get left behind. 
+
+For the last few years, I've been extremely focused on rails and have
+been reluctant to "play" with any other technologies or frameworks. I
+didn't want anything to distract me from my focus on rails. Recently
+however, as I've become a more mature rails developer and feel more
+comfortable in that role, I've been wanting to branch out and learn some
+new technologies. A few on at the top of my list are:
+
+1. node.js
+2. iOS
+3. elixir
+
+Which one should I pick?
+
+[1]:http://www.quora.com/What-kind-of-jobs-can-i-get-with-Ruby-on-Rails
