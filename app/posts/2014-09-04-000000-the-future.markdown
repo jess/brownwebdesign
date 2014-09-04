@@ -1,0 +1,60 @@
+---
+title: "The Future"
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+<% @large_photo = "blog/new-york.jpg" %>
+
+In business school, I frequently thought of the old business tycoons who
+were in the beginning of their industry's heyday: Henry Ford (autos),
+J.P.  Morgan (banking), Cornelius Vanderbilt (shipping and railroad
+tycoon), John D. Rockefeller (oil). I'd think, if I'd been born then,
+business would've been easy. In hindsight, it all seems so obvious:
+trains, growth, ships, oil, investment, factories, etc. etc. 
+
+For the last couple of years, I've been wanting to create a business (in
+addition to my consulting) around a SaaS (software as a service)
+product. Since probably 2005, SaaS businesses have grown rapidly. Now it
+seems there's an app for everything and anything. I've become to think
+that the SaaS market is saturated and opportunity is few and far
+between. If this is true, this also affects my consulting business
+because if the opportunity isn't there, then less and less
+entrepreneurs will need my consulting to help build software. 
+
+So like many entrepreneurs, I began to feel pessimistic and downcast about
+the future. But like most entrepreneurs, this was a brief spell.
+
+I recently read an article that bolstered my confidence: ["You are not
+late"][1]. The author talks about a similar thought process as I
+mentioned above, but within the technology boom. "Oh, if we'd just been
+around at the beginning of the dot com boom...things would have been so
+easy." Then he says that:
+
+> If we could climb into a time machine and journey 30 years into the
+> future, and from that vantage look back to today, we'd realize that
+> most of the greatest products running the lives of citizens in 2044
+> were not invented until after 2014.
+
+I believe that. Heck, 10 years from now, we probably won't be using the
+majority same tools, services, and technologies we're using today. Major
+platforms like the web and email may still be around, but they'll
+probably look vastly different. For example, 5 years ago, the majority
+of all email was hosted on an exchange server, or an in-house pop mail
+server. Now, the majority of people access their email in the cloud
+through different devices and clients. 
+
+> Because here is the other thing the people in 2044 will tell you:
+> Can you imagine how awesome it would have been to be an entrepreneur
+> in 2014? It was a wide-open frontier!
+
+The one thing that is constant is change and people have been innovating
+since the beginning of time. There's opportunity in the future. You have
+to be willing to [learn][2], change and visualize if you want to take
+part!
+
+So now the hard part...what's next? What's the next big shift in
+technology? What will are you working and investing your time?
+
+[1]:https://medium.com/message/you-are-not-late-b3d76f963142
+[2]:/blog/learning
