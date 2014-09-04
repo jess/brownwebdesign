@@ -10,6 +10,7 @@ ruby '2.1.2'
 gem 'pg'
 gem 'thin'
 gem 'high_voltage'
+gem "skylight"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
