@@ -1,0 +1,59 @@
+---
+title: "Competition"
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+Let's say you're an electrician and you run a small electrical
+contracting company. There may be 1000's of other companies that offer
+the same services, at the same prices, in the same turn around time,
+with the same friendly smile as you do. The only difference? Only a few
+are geographically close enough to the customer to do the job. 
+
+A lot of small business benefit from a geographic advantage but most
+technology companies (large or small) don't enjoy this benefit. Take
+my consulting company Brown Web Design, for example. A local
+entrepreneur could just as easily hire someone in Ohio as they could me
+to develop software for their business. There's no real advantage to
+being close. Another example: A business could just as easily use
+software built and maintained in Australia as they could from people in
+their home state. 
+
+There are a few advantages, time zone and language. Time zone is not
+that hard to work around, especially with people's acceptance of
+asynchronous communication these days. Language is another topic. 
+
+So the questions is, if you own a small company, how do you compete? How
+do you market and network? How do you gain an advantage?
+
+Well, first there are **some** geographic advantages to marketing and
+networking. A developer in Ohio isn't likely to come to Atlanta to
+attend the monthly Ruby meetup or Web Design group. So being visible at
+local gatherings is a big benefit. Speaking at these gatherings is even
+better.
+
+Another idea I've been trying to wrap my head around (because I'm not
+very good at it, but I see others doing it well) is the concept of
+*virtual communities*. With the loss of some geographical advantage,
+there's opportunity to be heard and seen in virtual communities. What
+are some of those? They can be technology specific ("The Ruby
+Community"), or business topic specific (the startup community,
+enterprise, SMB's, etc) industry specific (accounting, manufacturing,
+real estate). I not a google plus fan, but I like their term of circles.
+If you're socially active, you have circles of friends and influence.
+You might have an audience of social followers, blog readers, or email
+subscribers. They're all potential areas of opportunity.
+
+I'm not pointing out anything new. The crazy growth of marketing tools
+to help companies reach these *virtual communities* like [Pardot][1],
+[Google Adwords][2], [Mailchimp][3], [Hubspot][4] reveal that others are
+doing online marketing with amazing success. 
+
+So what's my point? If I have one I guess I'd be this: *Embrace the
+competition and take advantage of opportunities provided online.*
+
+
+[1]:http://www.pardot.com/
+[2]:http://www.google.com/adwords
+[3]:http://mailchimp.com/
+[4]:http://www.hubspot.com/
