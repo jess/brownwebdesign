@@ -1,0 +1,67 @@
+---
+title: "Review of Apple Pay for developers"
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+After hearing about [Apple Pay][1] the other day, as a developer who
+implements payment services through software, I was curious about what it
+might could offer myself and my clients. Here are some questions I had
+and what I found about about them.
+
+### Who's it for?
+
+Two groups: the consumer and the business.
+
+The **consumer**, anyone who has and iPhone 6 or Apple Watch. I originally
+envisioned *Buy buttons* on websites, but it's only for people who have
+iPhone6 or the Apple Watch.
+
+**Businesses** who have retail or mobile apps. If a business has a
+retail store that already accepts credit cards with the scan and go
+technology, then they'll likely be able to accept Apple Pay. 
+
+<%= image_tag("blog/apple-pay.jpg") %>
+
+<span class="footnote">Photo: (Apple)</span>
+
+Or, if you're a business with a mobile iOS app, then you can use Apple
+Pay to accept payment for any purchases within the app.
+
+### How's it work?
+
+On the consumer side, you store credit cards in your passport. When
+you're ready to checkout, you choose a card and hit pay.
+
+On the business retail side, Apple makes use of NFC-enabled credit card
+readers. Apparently Google Wallet already does this. 
+
+On the mobile app side, developers will likely still go through an
+existing payment processor like Stripe or Authorize.net. 
+
+Apple won't store any of the credit card numbers, but will work with the
+payment processors to store tokens and will randomly update them. This
+is similar to how Stripe works now with web applications. We send the
+credit card number to Stripe, then Stripe sends the appliction back a
+token, and then the application can use the token to make
+purchases in the future.
+
+### When does it get started?
+
+It appears Apple Pay will get started in October. Apple has been working
+behind the scenes to preapre the payment processors, build partnerships
+with banks and get retail (220k) stores on board. 
+
+
+### Resources
+
+* [Apple Pay Developer][2]
+* [Apple Consumer page][1]
+* [Good article about the terminals][3]
+* [Good article about the competition][4]
+
+
+[1]:https://www.apple.com/iphone-6/apple-pay/
+[2]:https://developer.apple.com/apple-pay/
+[3]:http://www.businessinsider.com/apple-pay-at-mcdonalds-drive-through-2014-9
+[4]:http://www.techtimes.com/articles/15509/20140915/apple-pay-walmart-and-best-buy-look-other-way.htm
