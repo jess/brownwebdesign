@@ -6,7 +6,7 @@ email: jess@brownwebdesign.com
 
 One of my favorite creative / techonolgy magazines is [Offscreen][1].
 They have a feature that I've seen in every issue called *A Day In The
-Live Of*. 
+Life Of*. 
 
 <%= image_tag "blog/a-day-in-the-life-of.jpg" %>
 
@@ -14,10 +14,10 @@ It's a collection of several featured artists that describes what a
 typical day looks like for them. The artists aren't necessarily popular
 or famous, although some of them do work at high profile companies
 (Google, Facebook, etc), but for some reason I find it really
-interesting to read through. It must also interesting for others too
+interesting to read through. It must also be interesting for others too
 since it continues to be in the magazine.
 
-So, here I'm officially submitting my chronicle: ***A day in the life
+So here, I'm officially submitting my chronicle: ***A day in the life
 of Jess Brown***
 
 ### Jess Brown
