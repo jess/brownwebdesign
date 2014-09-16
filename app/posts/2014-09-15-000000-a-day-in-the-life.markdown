@@ -1,0 +1,108 @@
+---
+title: A Day In The Life Of
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+One of my favorite creative / techonolgy magazines is [Offscreen][1].
+They have a feature that I've seen in every issue called *A Day In The
+Live Of*. 
+
+<%= image_tag "blog/a-day-in-the-life-of.jpg" %>
+
+It's a collection of several featured artists that describes what a
+typical day looks like for them. The artists aren't necessarily popular
+or famous, although some of them do work at high profile companies
+(Google, Facebook, etc), but for some reason I find it really
+interesting to read through. It must also interesting for others too
+since it continues to be in the magazine.
+
+So, here I'm officially submitting my chronicle: ***A day in the life
+of Jess Brown***
+
+### Jess Brown
+
+#### Independent Web Developer
+
+6.00AM -- Things start early here. But, first things first...my wife is
+nudging me out of the bed to start coffee.
+
+6.15AM -- I work from home, so a quick walk up the stairs to my office
+places me at my desk. I lead a Bible study group once a week, so I
+begin the day in prayer, thought, and then begin preparation for the
+next lesson.
+
+6.45AM -- I check my email, calendar and moleskin to review the
+tasks/projects for the day. I typically come up with an idea of when and
+how I'll work on each project.
+
+7.00AM -- Time to wake the kids up for school. I have a 3 and 7 year
+old. I get them dressed and fed while mom gets herself ready.
+
+8.00AM -- Mom and kids head off to school, while I head out on my bike.
+Today I have planned what's usually a typical ride of around 2hrs.
+Exercise is an important part of starting the day off right for me. 
+
+10.15AM -- After a shower and a small snack, I'm back at my desk tackling
+the plan I laid out earlier that morning. Today I'm monitoring the
+relaunch of a client's app. They provide exercise programs for
+university courses, and since most universities are on semester systems,
+30-40% of annual sales will come in this week. We just upgraded to a new
+server environment, so everyone is anxious to see how it handles the
+rush.
+
+1.00PM -- Aside from a few little tweaks, the new servers are handling
+the load just fine. Since things seem under control, I'll grab a bite to
+eat with my wife downstairs. We're pretty health conscious about what we
+eat, so we end up cooking quite a bit, which means leftovers are usually
+the only item on the menu.
+
+1.30PM -- I'm back at my desk and am on a conference call with my
+client. We discuss how things are progressing and discuss a few features
+to implement that could make ordering a little easier for students. I
+also work on set of other features that have been scheduled to be
+integrated in the application. 
+
+3.30PM -- Time for an afternoon coffee break. Today I'll use my
+[AreoPress][2] and try out a new recipe I found. While I'm brewing, my
+kids get home from school so I get to give them hugs and chat with them
+a few minutes before heading back to my office with coffee. 
+
+3.45PM -- I like to use my coffee time to either learn something new
+(reading a book or article, following a tutorial, etc) or writing. Today
+I'll be writing on my blog. Writing, and especially teaching through
+writing is really rewarding. 
+
+4.15PM -- Back to finish up the latter part of the workday. I'm
+completing a few features I started earlier and after all my tests
+show passing, I deploy to production. 
+
+6.00PM -- I head down stairs to start dinner. There are no church or
+school meetings or meetups tonight, so I get to relax spending time with
+my family. Cooking, cleanup, and getting the kids in and out of showers
+take up the bulk of the evening (kids are hard work :). 
+
+8.30PM -- We have story time every night with the kids. Right now, we're
+reading our second *Sammy Keys* book called *[Sammy Keyes and the Hotel
+Thief][3]*. The adults even like this one! 
+
+9.00PM -- It's lights out for the kids. I sit in my older son's room
+while my wife is in the other. I have my laptop out, quietly checking
+email and studying up on a new project. 
+
+9.30PM -- My wife and I get to spend a little time to ourselves. Tonight
+we're watching TV and we're currently in the middle of a really good
+Netflix series called [*The Killing*][4]. 
+
+10.30PM -- We're heading to bed and I wind down by reading a fiction
+novel I'm about halfway through called *Battlefield Earth* (it's much
+better than the movie). 
+
+11.00PM -- ZZZ
+
+
+
+[1]:http://www.offscreenmag.com/
+[2]:http://www.amazon.com/gp/product/B0047BIWSK/ref=as_li_tf_tl?ie=UTF8&tag=aerinc-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=B0047BIWSK
+[3]:http://www.amazon.com/Sammy-Keyes-Hotel-Wendelin-Draanen/dp/0679892648
+[4]:http://en.wikipedia.org/wiki/The_Killing_(U.S._TV_series)
