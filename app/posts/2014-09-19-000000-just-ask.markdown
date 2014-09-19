@@ -14,36 +14,36 @@ station in a town nearby, so we hopped in the car and drove out to it.
 It was an old building with no windows or glass in the door, but I
 knocked and when no one answered I just went in. It was a very non
 public place with lockers and years old flooring and walls. Once inside
-though I bumped into a man with an earring and ponytail and just said,
-"hi, we'd like to see a train, are there any out in the yard we can look
-at?"
+though, I bumped into a man just said, "hi, we'd like to see a train,
+are there any out in the yard we can look at?"
 
 <%= image_tag "blog/csx-train.jpg" %>
 
-He was very accommodating and took us out in the yard and showed us all
-kinds of stuff: tracks, cars, engines, a choo-choo-truck; he even blew
-the train horn! It's amazing what people are willing to share
-with you if you just ask!
+To our surprise, he was very accommodating and took us out in the yard
+and showed us all kinds of stuff: tracks, cars, engines, a
+choo-choo-truck; he even blew the train horn! It's amazing what people
+are willing to share with you if you just ask!
 
 I've done this quite a few times, with fire stations, police stations,
 etc. We have a small local airport that I took the kids to once. We
 walked into the mechanics shop, and struck up a conversation with the
-first person we saw. It turns out he owns one of the planes in the shop
-and invites the kids up into the plane and answers all kids of random
-questions from the kids.
+first person we saw. It turned out he was the owner of one of the planes
+in the shop and invited the kids up into the plane and answered all kids
+of random questions from the kids. The owner of the shop even ended up
+giving the kids some wooden model airplanes. Another time we saw a hot
+air baloon land near by. We drove over, started up conversation with the
+folks, and winded up getting a ride.
 
 <%= image_tag "blog/kids-airplane.jpg" %>
 
-The owner of the shop even ended up giving the kids some wooden model
-airplanes. 
 
-### Just Ask
+## Just Ask
 
 I was chatting with a business assiciate the other day and we were
 talking about this concept of ***asking***. Whether you're thinking of
-asking for a sale, for the job, for an investment, for the
+asking for a sale, for the job, for an investment, or for the
 promotion...just don't be afraid to ask. I typically find people are
-much more willing to entertain the idea that you think they might be.
+much more willing to entertain the idea than you think they might be.
 Even if they're not, it may open the doors to something else. Besides,
-the worst thing that can happen is you get a No, and that's not a bad risk
-to reward ratio!
+the worst thing that can happen is you get a No, and that's not a bad
+risk to reward ratio!
