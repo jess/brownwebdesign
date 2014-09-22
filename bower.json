@@ -1,0 +1,22 @@
+{
+  "name": "brownwebdesign",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jess/brownwebdesign",
+  "authors": [
+    "Jess Brown <jess@brownwebdesign.com>"
+  ],
+  "description": "Assets for Brown Web Design",
+  "dependencies": {
+  },
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
