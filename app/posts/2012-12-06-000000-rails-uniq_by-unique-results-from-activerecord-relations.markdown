@@ -24,6 +24,6 @@ you only want 1 location from each store/company.  You can use:
 Location.near("monroe, ga").uniq_by(&:store_id)
 ```
 
-And that will give you a nice AR relation of unique locations!
+And that will give you a nice unique Array from an AR relation!
 
 [uniq_by]:http://apidock.com/rails/Array/uniq_by
