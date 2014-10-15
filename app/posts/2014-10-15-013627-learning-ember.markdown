@@ -1,0 +1,36 @@
+---
+title: Learning Ember
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+Recently I've been working on a new product for my company and I decided
+it was a good fit for [Ember][]. I'm just now learning Ember so it's a
+new endeavor for me.
+
+I got about 60% of the way through the project and hit somewhat of a
+wall. I've gone about as far as the introduction tutorials I've found
+take you. 
+
+I've been pretty comfortable in my role as a senior or advanced rails
+developer for some time now. Not that I don't struggle or work on hard
+problems, but rails as a framework isn't getting in my way or slowing me
+down. I'm able to focus on my problems and not focus on the framework.
+
+Now that I'm learning ember, I'm reminded of back when I was learning
+rails and how difficult and frustrating it can be to learn something new.
+To solve a simple problem, it requires a lot of digging and learning. But
+that's the price you pay for learning a framework. In a recent talk I
+gave about learning rails, I explained that it was difficult to learn
+rails (or any framework for that matter), but that the investment was
+well worth it. 
+
+I spent about 10-15 minutes live coding with them went through doing a
+quick prototype of their website. I saw some pretty impressed smiles
+from the crowd when they saw rails work it's magic. 
+
+I struggle with this upfront cost, but have to take some of my own
+medicine every now and then remember that it's worth it in the long run.
+
+[Ember]:http://emberjs.com
+
