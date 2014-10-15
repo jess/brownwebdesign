@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'dotenv-rails', :groups => [:development, :test]
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.2'
+gem 'rails', '4.1.6'
 ruby '2.1.2'
 
 # Use postgresql as the database for Active Record
@@ -52,6 +52,7 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 group :development do
   gem 'rack-livereload'
   gem 'guard-livereload'
+  gem 'spring'
 end
 
 group :test, :development do
