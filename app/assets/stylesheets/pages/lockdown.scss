@@ -1,0 +1,55 @@
+body.lockdown {
+  //@include background-image(radial-gradient(circle farthest-side at right bottom,#F8CDDA,#1D2B64 80%,#0E153A));
+  $background-color: #58585a;
+  background: image_url('lockdown/bk.jpg') fixed repeat-y top center;
+
+  @include dark-menu($background-color);
+
+  h1.lockdown {
+    font-size: 3.6rem;
+    font-family: monospace;
+    color: #FFF;
+    margin-bottom: .8em;
+  }
+
+  h2.hi {
+    font-family: monospace;
+    font-size: 4rem;
+  }
+
+  .wrapper {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 3em;
+
+    .lead {
+      color: #999;
+      p {
+        font-size: 1.4rem;
+      }
+    }
+
+    .testimonial {
+      padding: 3em;
+      text-align: center;
+      border-top: 1px solid #CCC;
+      border-bottom: 1px solid #CCC;
+      margin: 3em 0;
+      p {
+        font-size: 1.3em;
+        font-style: italic;
+        color: #DE8266;
+      }
+      cite {
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        color: #555;
+      }
+    }
+
+    .image {
+      margin: 3em 0;
+      @include single-box-shadow(#A3A3A3, 0px, 3px, 9px);
+    }
+  }
+}

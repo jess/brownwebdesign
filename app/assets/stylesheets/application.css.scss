@@ -7,6 +7,7 @@
 @import "font-awesome";
 @import "compass";
 @import "work/*";
+@import "pages/*";
 @import "animate";
 
 body {
@@ -22,12 +23,11 @@ body {
   }
 
   code {
-
     font-weight: normal;
     color: #7F0A0C;
-font-size: 73%;
+    font-size: 73%;
     background: #E6E6E6;
-padding: 4px 4px 2px;
+    padding: 4px 4px 2px;
   }
   pre {
     padding: 20px;
