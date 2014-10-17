@@ -1,7 +1,7 @@
 body.lockdown {
   //@include background-image(radial-gradient(circle farthest-side at right bottom,#F8CDDA,#1D2B64 80%,#0E153A));
   $background-color: #58585a;
-  background: image_url('lockdown/bk.jpg') fixed repeat-y top center;
+  background: image_url('lockdown/bk.jpg') fixed repeat-y center 68px;
 
   @include dark-menu($background-color);
 
