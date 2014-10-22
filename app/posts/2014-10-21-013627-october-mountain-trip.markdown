@@ -11,7 +11,7 @@ trip. The weather was beautiful!
 
 ## Helton Creek Falls
 
-Helpton Creek is back a ways off Hwy 129 and it takes a little while to
+Helton Creek is back a ways off Hwy 129 and it takes a little while to
 get to, but the ride is really nice. It's not much of a hike (just a few
 stairs) but worth the trip.
 
@@ -20,6 +20,8 @@ stairs) but worth the trip.
 Drive through a few streams to get there!
 
 <%= image_tag "blog/october2014/2014-10-19 12.20.25.jpg", class: '' %> 
+
+You can see the falls from the road.
 
 <div class="row">
 <div class="columns large-6"><%= image_tag "blog/october2014/2014-10-19 11.48.44.jpg", class: '' %></div>
@@ -35,10 +37,15 @@ max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width
 </div>
 </div>
 
-## Sorgum Festival
 
-The Sorgum Festival is an annual event held in Blairsville, GA each
-year. They actually make sorgum at the event!
+You have to hold on to this guy to keep him out of the water!
+
+<%= image_tag "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10433075_10203885691195367_5724911985105441158_n.jpg?oh=43b0244c971c0d2b1d75218dbbe241ba&oe=54F54FC7&__gda__=1425385378_6164ff405917e0013b789e9659308cdc", class: '' %> 
+
+## Sorghum Festival
+
+The [Sorghum Festival][1] is an annual event held in Blairsville, GA each
+year. They actually make sorghum at the event!
 
 <%= image_tag "blog/october2014/2014-10-18 12.52.53.jpg", class: '' %> 
 
@@ -80,7 +87,7 @@ Gotta have hiking sticks!
 
 ## Georgia Mountain Fair
 
-Lots of crafts and food, even toys for the kids...
+Lots of crafts and food, and of course...toys for the kids.
 
 <%= image_tag "blog/october2014/2014-10-17 14.12.19.jpg", class: '' %>
 
@@ -98,3 +105,5 @@ and even a real sawmill...
 
 <%= image_tag "blog/october2014/2014-10-20 14.26.43.jpg", class: '' %> 
 
+
+[1]:http://blairsvillesorghumfestival.com/
