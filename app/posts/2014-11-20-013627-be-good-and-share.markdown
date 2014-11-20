@@ -1,0 +1,34 @@
+---
+title: Be Good And Share With Others
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+This morning during my quiet / devotion / reflection time, I came across
+[this Bible devotional][1]. The focal point was a bible verse, [Hebrews
+13:16](http://www.biblegateway.com/passage/?search=Hebrews13:16&version=niv)
+that simply says: "*remember to be good and share with others*".
+
+It's such a simple concept and yet...
+
+I like to post things like this to help me remember. Sometimes it's just
+a postit note, or sometimes it's a framed calligraphy, but this time I
+wanted to make a desktop and iPhone wallpaper and like the verse says,
+"share it." 
+
+The font I used was [Tablet Gothic Compressed][2] from Typekit.
+
+Here's the desktop version. Click to get the hi res version.
+
+<div class="columns large-10 large-centered">
+<p><%= link_to image_tag("http://brownwebdesign.s3.amazonaws.com/images/screen-background-heb13-16.jpg"), "http://brownwebdesign.s3.amazonaws.com/images/screen-background-heb13-16-hi-res.jpg" %></p>
+</div>
+
+<p>Here's the iPhone version:</p>
+
+<div class="columns large-8 large-centered">
+<p><%= link_to image_tag("http://brownwebdesign.s3.amazonaws.com/images/iphone-screen-background-heb13-16.jpg"), "http://brownwebdesign.s3.amazonaws.com/images/iphone-screen-background-heb13-16-hi-res.jpg" %></p>
+</div>
+
+[1]:http://odb.org/2014/11/20/can-you-help/
+[2]:https://typekit.com/fonts/tablet-gothic-compressed
