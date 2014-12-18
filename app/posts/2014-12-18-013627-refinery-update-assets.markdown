@@ -77,6 +77,7 @@ pass in the instance of the file or image model to the AssetUrlReplacer,
 which is where all the real work is done.
 
 ```ruby
+# app/models/asset_url_replacer.rb
 require 'nokogiri'
 
 class AssetUrlReplacer
