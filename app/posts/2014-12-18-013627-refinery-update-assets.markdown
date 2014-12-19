@@ -118,7 +118,7 @@ class AssetUrlReplacer
     if (tags = html.css(tag)).any?
       tags.each do |element|
         if element[attribute].include?(asset.send(asset_name)) 
-          && element[attribute].include?("/system/resources/")
+          && element[attribute].include?("/system/")
           element[attribute] = asset.send(asset_type).url
         end
       end
