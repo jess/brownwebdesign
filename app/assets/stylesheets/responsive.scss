@@ -44,9 +44,11 @@
     }
 
     // Intro Section
-    
     section.intro {
       height: 100%;
+      .middle-page {
+        margin-top: -10%;
+      }
 
       .we-do {
         .call-to-action {
