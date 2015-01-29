@@ -25,6 +25,8 @@ en:
   home:
     index:
       meta_title: Brown Web Design - We Design & Build Web Apps
+    start_rails:
+      meta_title: Video series on starting a ruby on rails project
   pages:
     schedule:
       meta_title: Schedule a phone call with Jess Browwn

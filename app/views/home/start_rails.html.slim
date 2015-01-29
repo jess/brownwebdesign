@@ -1,0 +1,24 @@
+- @body_class = "home"
+- @meta_title = t(".meta_title")
+- @dark_logo = true
+section.intro
+  .background
+    .pattern
+      =render "layouts/menu"
+      .we-do
+        .middle-page
+          .row
+            .columns.large-12
+              .statement
+                h1
+                  =fa_icon "arrow-circle-o-right"
+                  |  Start Rails
+
+                h3
+                  em A video series on how to start a Ruby on Rails project from start to finish.
+                p Sign up below and I'll email you a link to each new video that gets released.
+          .row
+            .columns.large-8.large-centered
+              br
+              br
+              = render 'shared/start_rails_signup'

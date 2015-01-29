@@ -1,6 +1,7 @@
 Brownwebdesign::Application.routes.draw do
   postmarkdown :as => :blog, :permalink_format => :slug
   root 'home#index'
+  get '/start-rails' => "home#start_rails"
   resources :post_titles, :only => :index
   resources :charges, :only => :create
 
