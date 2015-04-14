@@ -4,7 +4,7 @@ gem 'dotenv-rails', :groups => [:development, :test]
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
-ruby '2.2.2'
+ruby '2.1.6'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
