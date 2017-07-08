@@ -1,0 +1,20 @@
+---
+title: An alternative to bundle update
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+Bundle update can many be the cause of a splitting headache. A lesser
+known fact is that when you run `bundle update GEMNAME` bundler will
+actually update GEMNAME and all of GEMNAME's dependancies. And this of
+course can lead to a much higher chance of conflicts.
+
+Checkout the video to see what I mean:
+
+<div class="flex-video widescreen"><iframe width="560" height="315"
+src="//www.youtube.com/embed/w5tYu7VU1N4" frameborder="0"
+allowfullscreen></iframe> </div>
+
+Give this a try next time you need to 'update' a gem. For more detail,
+checkout this great explaination and more tips:
+[https://makandracards.com/makandra/13885-how-to-update-a-single-gem-conservatively](https://makandracards.com/makandra/13885-how-to-update-a-single-gem-conservatively)
