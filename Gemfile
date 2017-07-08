@@ -39,7 +39,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem "passenger"
+gem "puma"
 gem 'slim-rails'
 gem 'rails_12factor', group: :production
 gem 'compass-rails'
