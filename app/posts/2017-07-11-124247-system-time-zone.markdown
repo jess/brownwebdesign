@@ -1,0 +1,53 @@
+---
+title: System time zone on local ruby
+author: Jess Brown
+email: jess@brownwebdesign.com
+---
+
+Most production servers will have a system time zone of UTC. For
+example on heroku:
+
+```
+$ heroku run rails c
+Running rails c on ⬢ brownwebdesign... up, run.2977
+Loading production environment (Rails 4.1.16)
+irb(main):001:0> Time.now
+=> 2017-07-11 12:45:33 +0000
+```
+
+Most local development environments will have a time zone of the system
+time zone.  If your Mac's time is Eastern, your time will look like
+this:
+
+```
+$ rails c
+Loading development environment (Rails 4.1.16)
+[1] pry(main)> Time.now
+=> 2017-07-11 08:46:52 -0400
+```
+
+This typically will not cause any issues because rails will convert time
+to UTC to store in database and then convert time to the set time zone
+configured in the app. Woring with time zones in your rails app is a
+whole other topic (checkout [this article][1] for some great tips).
+
+However, I recently ran into an issue where I was using the [Chronic][2]
+gem to parse user inputed time and it uses the system ruby time. My
+devlopment results were not matching production results. I found a neat
+tip to easily make your local system ruby use UTC just like the
+production system: just set the `TZ` environment variable:
+
+```
+$ TZ=UTC rails s
+
+## or ##
+
+$ TZ=utc rails c
+Loading development environment (Rails 4.1.16)
+[1] pry(main)> Time.now
+=> 2017-07-11 12:55:45 +0000
+```
+
+
+[1]:https://robots.thoughtbot.com/its-about-time-zones
+[2]:https://github.com/mojombo/chronic
