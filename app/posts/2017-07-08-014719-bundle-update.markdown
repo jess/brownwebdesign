@@ -4,9 +4,9 @@ author: Jess Brown
 email: jess@brownwebdesign.com
 ---
 
-Bundle update can many be the cause of a splitting headache. A lesser
+Bundle update can be the cause of a splitting headache. A lesser
 known fact is that when you run `bundle update GEMNAME` bundler will
-actually update GEMNAME and all of GEMNAME's dependancies. And this of
+actually update GEMNAME and all of GEMNAME's dependencies. And this of
 course can lead to a much higher chance of conflicts.
 
 Checkout the video to see what I mean:
@@ -16,5 +16,5 @@ src="//www.youtube.com/embed/w5tYu7VU1N4" frameborder="0"
 allowfullscreen></iframe> </div>
 
 Give this a try next time you need to 'update' a gem. For more detail,
-checkout this great explaination and more tips:
+checkout this great explanation and more tips:
 [https://makandracards.com/makandra/13885-how-to-update-a-single-gem-conservatively](https://makandracards.com/makandra/13885-how-to-update-a-single-gem-conservatively)
